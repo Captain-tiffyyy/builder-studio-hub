@@ -115,17 +115,17 @@ export default function Footer() {
             </div>
 
             {/* Right Column - Studio Cores Branding */}
-            <div className="flex flex-col items-center text-center ml-8">
+            <div className="flex flex-col items-center text-center ml-8 footer-branding">
               {/* Studio Cores Branding */}
               <div className="mb-3">
                 <div
-                  className="font-luxurious text-gray-blue mb-1"
+                  className="font-luxurious text-gray-blue mb-1 footer-studio"
                   style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
                 >
                   Studio
                 </div>
                 <div
-                  className="font-serif text-gray-blue tracking-tight uppercase"
+                  className="font-serif text-gray-blue tracking-tight uppercase footer-cores"
                   style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
                 >
                   Cores
@@ -135,7 +135,7 @@ export default function Footer() {
               {/* Follow Us and Social Links */}
               <div className="flex flex-row" style={{ marginTop: '12px' }}>
                 <span
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious text-gray-blue footer-follow-text"
                   style={{ fontSize: 'clamp(16px, 3vw, 24px)', margin: '0 15px 8px 0' }}
                 >
                   follow us
