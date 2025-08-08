@@ -60,10 +60,10 @@ export default function Index() {
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
           <div className="max-w-5xl mx-auto">
-            <h2 className="font-serif text-4xl lg:text-5xl xl:text-6xl text-gray-blue italic leading-tight mb-12">
-              You've built credibility in your field. <br />
-              Now convert that into a revenue-generating <br />
-              <span className="font-luxurious text-6xl lg:text-7xl xl:text-8xl not-italic">Tech Product</span> <br />
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-gray-blue italic leading-tight mb-12">
+              You've built credibility in your field. <br className="hidden sm:block" />
+              Now convert that into a revenue-generating <br className="hidden sm:block" />
+              <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic">Tech Product</span> <br className="hidden sm:block" />
               with paid users and global reach
             </h2>
             
