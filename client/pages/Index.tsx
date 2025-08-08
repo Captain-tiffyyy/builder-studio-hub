@@ -81,11 +81,11 @@ export default function Index() {
               <div className="lg:hidden w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
                 <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 h-80 sm:h-96 md:h-[28rem] md:flex md:flex-col">
                   {/* Top-left - Forest desk image */}
-                  <div className="col-span-1 flex justify-start items-start pt-4">
+                  <div className="col-span-1 flex justify-start items-start pt-4 md:mx-auto">
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
                       alt="Forest desk workspace"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover md:mx-auto"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
                     />
                   </div>
 
@@ -93,34 +93,30 @@ export default function Index() {
                   <div className="col-span-2"></div>
 
                   {/* Middle-left - Text */}
-                  <div className="col-span-1 text-xs leading-tight md:w-full md:text-center md:mx-auto">
+                  <div className="col-span-1 text-xs leading-tight md:mx-auto">
                     We leverage our startup <br />
                     experience to build you <br />a digital asset.
                   </div>
 
-                  {/* Middle-right - Both images in flex row */}
+                  {/* Images restructured - iMac first, then Man in field */}
                   <div className="flex flex-row">
-                    <img
-                      src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
-                      alt="Man in field"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
-                    />
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
                       alt="iMac on rock"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover md:ml-auto"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
                     />
+                    <div className="flex md:ml-auto">
+                      <img
+                        src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
+                        alt="Man in field"
+                        className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                      />
+                    </div>
                   </div>
 
                   {/* Container div */}
                   <div className="flex">
                     <div className="col-span-2">
-                    </div>
-                  </div>
-
-                  {/* Empty text box section */}
-                  <div className="col-span-2 flex flex-col items-end gap-3 sm:gap-4 pt-8 sm:pt-12">
-                    <div className="bg-cream/80 rounded-2xl p-3 sm:p-4 text-center max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem]">
                     </div>
                   </div>
 
