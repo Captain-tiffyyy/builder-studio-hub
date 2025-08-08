@@ -1,97 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Instrument+Serif:ital,wght@0,400;1,400&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   /**
-   * Tailwind CSS theme
-   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
-   * A different format will require also updating the theme in tailwind.config.ts.
-  */
+   * Studio Cores Design System
+   * Colors are based on the Figma design and optimized for accessibility
+   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Studio Cores Brand Colors */
+    --cream: #F1E6D3;
+    --cream-light: #F8F4EC;
+    --cream-dark: #ECE8DC;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --brown: #210706;
+    --brown-light: #3A1411;
+    --brown-dark: #1C0505;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --red-brand: #891D1A;
+    --red-light: #A62B27;
+    --red-dark: #721814;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --gray-blue: #5E657B;
+    --gray-light: #858996;
+    --gray-medium: #5E6579;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --button-base: #DEDBD3;
+    --button-hover: #D5D1C7;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Keep shadcn variables for components compatibility */
+    --background: 37 21% 87%;
+    --foreground: 15 73% 6%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --card: 37 21% 87%;
+    --card-foreground: 15 73% 6%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --popover: 37 21% 87%;
+    --popover-foreground: 15 73% 6%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --primary: 15 73% 6%;
+    --primary-foreground: 37 21% 87%;
 
-    --radius: 0.5rem;
+    --secondary: 35 14% 85%;
+    --secondary-foreground: 15 73% 6%;
 
-    --sidebar-background: 0 0% 98%;
+    --muted: 35 14% 85%;
+    --muted-foreground: 225 9% 41%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --accent: 35 14% 85%;
+    --accent-foreground: 15 73% 6%;
 
-    --sidebar-primary: 240 5.9% 10%;
+    --destructive: 4 69% 32%;
+    --destructive-foreground: 37 21% 87%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --border: 35 14% 85%;
+    --input: 35 14% 85%;
+    --ring: 15 73% 6%;
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    --radius: 40px;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 37 21% 87%;
+    --sidebar-foreground: 15 73% 6%;
+    --sidebar-primary: 15 73% 6%;
+    --sidebar-primary-foreground: 37 21% 87%;
+    --sidebar-accent: 35 14% 85%;
+    --sidebar-accent-foreground: 15 73% 6%;
+    --sidebar-border: 35 14% 85%;
+    --sidebar-ring: 15 73% 6%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 15 73% 6%;
+    --foreground: 37 21% 87%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 15 73% 6%;
+    --card-foreground: 37 21% 87%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 15 73% 6%;
+    --popover-foreground: 37 21% 87%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 37 21% 87%;
+    --primary-foreground: 15 73% 6%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 15 30% 15%;
+    --secondary-foreground: 37 21% 87%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 15 30% 15%;
+    --muted-foreground: 225 15% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 15 30% 15%;
+    --accent-foreground: 37 21% 87%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 4 69% 32%;
+    --destructive-foreground: 37 21% 87%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 15 30% 15%;
+    --input: 15 30% 15%;
+    --ring: 37 21% 87%;
+
+    --sidebar-background: 15 73% 6%;
+    --sidebar-foreground: 37 21% 87%;
+    --sidebar-primary: 4 69% 32%;
+    --sidebar-primary-foreground: 37 21% 87%;
+    --sidebar-accent: 15 30% 15%;
+    --sidebar-accent-foreground: 37 21% 87%;
+    --sidebar-border: 15 30% 15%;
+    --sidebar-ring: 37 21% 87%;
   }
 }
 
@@ -100,7 +116,59 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
-    @apply bg-background text-foreground;
+    @apply bg-cream text-brown font-sans antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Typography Styles */
+  .heading-hero {
+    @apply font-luxurious text-hero leading-none;
+  }
+
+  .heading-display {
+    @apply font-serif text-display leading-tight tracking-tight;
+  }
+
+  .heading-large {
+    @apply font-serif text-heading leading-tight tracking-tighter;
+  }
+
+  .heading-medium {
+    @apply font-serif text-subheading leading-tight tracking-tighter;
+  }
+
+  .text-brand {
+    @apply text-red-brand;
+  }
+
+  .text-secondary {
+    @apply text-gray-blue;
+  }
+
+  .text-muted {
+    @apply text-gray-light;
+  }
+
+  /* Button Styles */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-4 px-8 py-5 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-4 px-8 py-5 rounded-full border border-gray-medium bg-red-brand text-button-base font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-red-dark;
+  }
+
+  /* Utilities */
+  .container-custom {
+    @apply max-w-7xl mx-auto px-6 lg:px-8;
+  }
+
+  .section-padding {
+    @apply py-16 lg:py-24;
   }
 }
