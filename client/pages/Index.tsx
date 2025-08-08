@@ -134,7 +134,7 @@ export default function Index() {
               <div className="mb-4">You've built credibility in your field.</div>
               <div className="mb-4">Now convert that into a revenue-generating</div>
               <div>
-                <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic">Tech Product</span> with paid users and global reach
+                <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic pr-4">Tech Product</span> with paid users and global reach
               </div>
             </h2>
 
