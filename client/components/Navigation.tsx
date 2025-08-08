@@ -47,8 +47,8 @@ export default function Navigation() {
       <div className="container-custom max-w-full">
         <div className="flex items-center justify-between h-20 lg:h-24 w-full">
           {/* Logo */}
-          <Link to="/" onClick={handleLogoClick} className="flex items-center">
-            <div className="font-luxurious text-4xl lg:text-5xl text-brown">
+          <Link to="/" onClick={handleLogoClick} className="flex items-center min-w-0 flex-shrink-0">
+            <div className="font-luxurious text-3xl sm:text-4xl lg:text-5xl text-brown whitespace-nowrap">
               Studio Cores
             </div>
           </Link>
