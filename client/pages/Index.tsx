@@ -352,28 +352,28 @@ export default function Index() {
       {/* Newsletter Section */}
       <section id="newsletter" className="section-padding relative">
         <div className="container-custom">
-          <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-brown text-center sm:text-right mb-8 sm:mb-16">
             /Subscribe to Our Newsletter
           </h2>
-          
+
           <div className="flex justify-center">
-            <div 
-              className="relative w-full max-w-4xl h-96 bg-cover bg-center rounded-3xl overflow-hidden"
+            <div
+              className="relative w-full max-w-4xl h-80 sm:h-96 bg-cover bg-center rounded-3xl overflow-hidden"
               style={{
                 backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/d5be7445b44b2f6ef7cf5df7b8323b4ffcc1fa3e?width=1964')"
               }}
             >
               <div className="absolute inset-0 bg-brown/20"></div>
-              <div className="relative z-10 flex items-center justify-center h-full p-8">
-                <div className="bg-cream rounded-3xl p-8 lg:p-12 shadow-2xl max-w-md w-full text-center">
-                  <h3 className="text-gray-blue text-2xl lg:text-3xl font-light tracking-wide uppercase mb-4">
+              <div className="relative z-10 flex items-center justify-center h-full p-4 sm:p-8">
+                <div className="bg-cream rounded-3xl p-6 sm:p-8 lg:p-12 shadow-2xl max-w-sm sm:max-w-md w-full text-center">
+                  <h3 className="text-gray-blue text-xl sm:text-2xl lg:text-3xl font-light tracking-wide uppercase mb-4">
                     Stay in the Loop
                   </h3>
-                  <p className="text-brown text-sm lg:text-base mb-8">
+                  <p className="text-brown text-xs sm:text-sm lg:text-base mb-6 sm:mb-8">
                     We share startups ideas, case studies, tech news, tools and resources that will help you in your entrepreneurial journey.
                   </p>
-                  <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center">
-                    <Mail size={18} />
+                  <button className="inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-sm sm:text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center">
+                    <Mail size={16} className="sm:w-5 sm:h-5" />
                     Subscribe
                   </button>
                 </div>
