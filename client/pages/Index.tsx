@@ -93,22 +93,19 @@ export default function Index() {
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
                   alt="Man in field"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover mt-6"
                 />
-
-                {/* Text block */}
-                <div className="bg-cream/80 p-4 sm:p-6 rounded-lg text-center max-w-xs sm:max-w-sm">
-                  <p className="text-brown text-base sm:text-lg font-sans leading-relaxed">
-                    We leverage our startup experience to build you a digital asset.
-                  </p>
-                </div>
 
                 {/* iMac on rock */}
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
                   alt="iMac on rock"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover mt-6"
                 />
+
+                {/* Empty styled div */}
+                <div className="bg-cream/80 rounded-[40px] text-center max-w-xs p-4 mt-6">
+                </div>
               </div>
             </div>
           </div>
