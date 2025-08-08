@@ -346,5 +346,52 @@
     .hero-30-days {
       font-size: clamp(24px, 6vw, 28px);
     }
+
+    /* Hero credibility section - mobile 3-line layout */
+    .hero-text-line-1 {
+      font-size: clamp(18px, 4.5vw, 20px) !important;
+      line-height: 1.3 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .hero-text-line-2 {
+      font-size: clamp(18px, 4.5vw, 20px) !important;
+      line-height: 1.3 !important;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .hero-text-line-3 {
+      font-size: clamp(18px, 4.5vw, 20px) !important;
+      line-height: 1.3 !important;
+    }
+
+    .hero-tech-product {
+      font-size: clamp(22px, 5.5vw, 24px) !important;
+      padding-right: 0.5rem !important;
+    }
+
+    .hero-with-paid-users {
+      display: block !important;
+      margin-top: 0 !important;
+      font-size: clamp(18px, 4.5vw, 20px) !important;
+    }
+
+    /* CTA section - single line on mobile */
+    .hero-cta-section {
+      flex-direction: row !important;
+      gap: 0.25rem !important;
+      flex-wrap: nowrap !important;
+      justify-content: center !important;
+      font-size: clamp(12px, 3vw, 14px) !important;
+    }
+
+    .hero-cta-section span {
+      font-size: clamp(12px, 3vw, 14px) !important;
+      white-space: nowrap;
+    }
+
+    .hero-cta-section div {
+      padding: 0.25rem 0.75rem !important;
+    }
   }
 }
