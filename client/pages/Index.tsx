@@ -374,21 +374,33 @@ export default function Index() {
       {/* Stats Section */}
       <section className="section-padding bg-cream/80">
         <div className="container-custom">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
-            <div>
-              <div className="font-luxurious text-8xl lg:text-9xl text-gray-blue mb-2">28</div>
-              <div className="font-luxurious text-4xl lg:text-5xl text-gray-blue mb-2">+</div>
-              <div className="font-serif text-2xl lg:text-3xl text-brown">Startups Launched</div>
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 lg:gap-24 text-center">
+            {/* Startups Launched */}
+            <div className="flex flex-col items-center">
+              <div className="mb-3">
+                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">28</span>
+                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+              </div>
+              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Startups Launched</div>
             </div>
-            <div>
-              <div className="font-luxurious text-8xl lg:text-9xl text-gray-blue mb-2">10</div>
-              <div className="font-luxurious text-4xl lg:text-5xl text-gray-blue mb-2">+</div>
-              <div className="font-serif text-2xl lg:text-3xl text-brown">Countries</div>
+
+            {/* Countries */}
+            <div className="flex flex-col items-center">
+              <div className="mb-3">
+                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">10</span>
+                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+              </div>
+              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Countries</div>
             </div>
-            <div>
-              <div className="font-luxurious text-8xl lg:text-9xl text-gray-blue mb-2">5</div>
-              <div className="font-luxurious text-4xl lg:text-5xl text-gray-blue mb-2">million+</div>
-              <div className="font-serif text-2xl lg:text-3xl text-brown">Users</div>
+
+            {/* Users */}
+            <div className="flex flex-col items-center">
+              <div className="mb-3">
+                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">5</span>
+                <span className="font-luxurious text-3xl sm:text-4xl lg:text-5xl text-gray-blue ml-1">million</span>
+                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+              </div>
+              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Users</div>
             </div>
           </div>
         </div>
