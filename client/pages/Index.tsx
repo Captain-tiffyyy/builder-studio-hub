@@ -12,20 +12,20 @@ export default function Index() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Hero Text */}
-            <div className="order-2 lg:order-1">
-              <div className="mb-8">
-                <div className="font-serif leading-tight">
+            <div className="order-1 lg:order-1">
+              <div className="mb-8 lg:mb-0">
+                <div className="font-serif leading-tight text-center lg:text-left">
                   {/* Line 1: Turn Your Expertise */}
-                  <div className="text-7xl italic text-brown mb-2">
+                  <div className="text-4xl sm:text-5xl lg:text-7xl italic text-brown mb-2">
                     Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
-                  <div className="flex items-baseline gap-4 mb-2">
-                    <span className="text-7xl italic text-brown">into a</span>
-                    <span className="font-luxurious text-8xl text-brown">Startup</span>
+                  <div className="flex items-baseline gap-2 lg:gap-4 mb-2 justify-center lg:justify-start flex-wrap">
+                    <span className="text-4xl sm:text-5xl lg:text-7xl italic text-brown">into a</span>
+                    <span className="font-luxurious text-5xl sm:text-6xl lg:text-8xl text-brown">Startup</span>
                   </div>
                   {/* Line 3: in 30 Days. */}
-                  <div className="text-7xl text-brown">
+                  <div className="text-4xl sm:text-5xl lg:text-7xl text-brown">
                     in <span className="text-red-brand">30 Days</span>.
                   </div>
                 </div>
@@ -33,8 +33,9 @@ export default function Index() {
             </div>
 
             {/* Hero Images */}
-            <div className="order-1 lg:order-2 relative">
-              <div className="flex flex-col gap-2 max-w-[522px] mx-auto">
+            <div className="order-2 lg:order-2 relative">
+              {/* Desktop layout */}
+              <div className="hidden lg:flex flex-col gap-2 max-w-[522px] mx-auto">
                 {/* Top - Forest desk image */}
                 <img
                   src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
@@ -74,6 +75,37 @@ export default function Index() {
                     className="w-24 h-24 object-cover mr-[60px]"
                   />
                 </div>
+              </div>
+
+              {/* Mobile/Tablet layout */}
+              <div className="lg:hidden flex flex-col items-center space-y-6 sm:space-y-8">
+                {/* Forest desk image */}
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
+                  alt="Forest desk workspace"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
+                />
+
+                {/* Man in field */}
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
+                  alt="Man in field"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
+                />
+
+                {/* Text block */}
+                <div className="bg-cream/80 p-4 sm:p-6 rounded-lg text-center max-w-xs sm:max-w-sm">
+                  <p className="text-brown text-base sm:text-lg font-sans leading-relaxed">
+                    We leverage our startup experience to build you a digital asset.
+                  </p>
+                </div>
+
+                {/* iMac on rock */}
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
+                  alt="iMac on rock"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
+                />
               </div>
             </div>
           </div>
