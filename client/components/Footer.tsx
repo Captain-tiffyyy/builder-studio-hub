@@ -85,7 +85,7 @@ export default function Footer() {
             {/* Left Column - Newsletter Section */}
             <div className="flex flex-col text-left justify-start items-start footer-newsletter">
               <h3
-                className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4 text-center"
+                className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4 text-center footer-heading"
                 style={{ fontSize: 'clamp(18px, 2.6vw, 28px)' }}
               >
                 Stay in the Loop
