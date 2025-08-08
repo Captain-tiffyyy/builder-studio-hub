@@ -20,61 +20,62 @@ export default function Footer() {
   return (
     <footer className="bg-cream-dark">
       <div className="container-custom">
-        {/* Footer Navigation */}
-        <div className="border-t border-brown/10 py-8">
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
-            {footerLinks.map((link) => (
-              link.href.startsWith('#') ? (
-                <button
-                  key={link.label}
-                  onClick={() => handleNavClick(link.href)}
-                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                >
-                  {link.label}
-                </button>
-              ) : (
-                <Link
-                  key={link.label}
-                  to={link.href}
-                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                >
-                  {link.label}
-                </Link>
-              )
-            ))}
-
-            {/* Subscribe Button with Arrow */}
-            <div className="flex items-center gap-3">
-              <div className="relative">
-                <div className="w-32 h-8 border border-brown rounded-full transform -rotate-90"></div>
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 text-brown font-sans text-xs uppercase tracking-wide hover:text-red-brand transition-colors">
-                  <span>subscribe</span>
-                  <ArrowRight size={16} />
-                </button>
-              </div>
+        {/* Footer Navigation Bar */}
+        <div className="border-t border-brown/10 py-6">
+          <div className="flex items-center justify-between">
+            {/* Left side - Navigation Links */}
+            <div className="flex items-center gap-8 lg:gap-12">
+              {footerLinks.map((link) => (
+                link.href.startsWith('#') ? (
+                  <button
+                    key={link.label}
+                    onClick={() => handleNavClick(link.href)}
+                    className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
+                  >
+                    {link.label}
+                  </button>
+                ) : (
+                  <Link
+                    key={link.label}
+                    to={link.href}
+                    className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                )
+              ))}
             </div>
+
+            {/* Right side - Subscribe Button (Horizontal Pill) */}
+            <button className="inline-flex items-center gap-2 px-6 py-2 border border-brown rounded-full text-brown font-sans text-xs uppercase tracking-wide hover:text-red-brand transition-colors">
+              <span>subscribe</span>
+              <ArrowRight size={14} />
+            </button>
           </div>
         </div>
 
-        {/* Main Footer Content */}
-        <div className="py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Newsletter Section */}
-          <div className="lg:col-span-1">
+        {/* Main Footer Content - 2 Columns */}
+        <div className="py-16 grid grid-cols-1 lg:grid-cols-2 gap-16">
+          {/* Left Column - Newsletter Section */}
+          <div className="flex flex-col">
             <h3 className="text-2xl lg:text-3xl font-sans font-light text-gray-blue tracking-wide uppercase mb-6">
               Stay in the Loop
             </h3>
             <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed">
               The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
             </p>
-            <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium">
-              <Mail size={18} />
-              Subscribe
-            </button>
+            <div className="self-start">
+              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium">
+                <Mail size={18} />
+                Subscribe
+              </button>
+            </div>
           </div>
 
-          {/* Studio Cores Branding */}
-          <div className="lg:col-span-1 flex flex-col items-center text-center">
-            <div className="mb-4">
+          {/* Right Column - Studio Cores Branding */}
+          <div className="flex flex-col items-center justify-center text-center">
+            {/* Studio Cores Branding */}
+            <div className="mb-6">
               <div className="font-luxurious text-6xl lg:text-7xl text-gray-blue mb-2">
                 Studio
               </div>
@@ -83,8 +84,8 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Social Links */}
-            <div className="flex items-center gap-6 mb-6">
+            {/* Follow Us and Social Links - Vertical Stack */}
+            <div className="flex flex-col items-center gap-4">
               <span className="font-luxurious text-3xl text-gray-blue">follow us</span>
               <div className="flex items-center gap-4">
                 <a
@@ -113,9 +114,6 @@ export default function Footer() {
               </div>
             </div>
           </div>
-
-          {/* Empty column for layout */}
-          <div className="lg:col-span-1"></div>
         </div>
       </div>
     </footer>
