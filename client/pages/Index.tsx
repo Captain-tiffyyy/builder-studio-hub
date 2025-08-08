@@ -121,25 +121,25 @@ export default function Index() {
         <div className="container-custom text-center">
           <div className="max-w-5xl mx-auto px-4 sm:px-6">
             <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
-              {/* Responsive typography with better mobile sizing */}
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
+              {/* Responsive typography with mobile 3-line layout */}
+              <div className="hero-text-line-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
                 You've built credibility in your field.
               </div>
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
+              <div className="hero-text-line-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
                 Now convert that into a revenue-generating
               </div>
-              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
-                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3">
+              <div className="hero-text-line-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
+                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3 hero-tech-product">
                   Tech Product
                 </span>
-                <span className="block sm:inline mt-1 sm:mt-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
+                <span className="hero-with-paid-users block sm:inline mt-1 sm:mt-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                   with paid users and global reach
                 </span>
               </div>
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-12 px-4">
+            <div className="hero-cta-section flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-12 px-4">
               <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
                 so....
               </span>
