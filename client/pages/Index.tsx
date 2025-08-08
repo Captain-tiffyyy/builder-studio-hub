@@ -155,9 +155,9 @@ export default function Index() {
 
             {/* CTA Button with proper mobile spacing */}
             <div className="mt-6 mb-6 sm:mt-8 sm:mb-8">
-              <button className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
+              <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
                 Book a call with us
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -216,9 +216,9 @@ export default function Index() {
               <p>Workflow Automations</p>
               <p>AI Tools</p>
             </div>
-            <button className="btn-primary text-lg px-12 py-6">
+            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-12 py-6">
               Book A Free Strategy Call
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -353,9 +353,9 @@ export default function Index() {
               <button className="btn-primary">
                 Text Us
               </button>
-              <button className="btn-secondary">
+              <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Book a call
-              </button>
+              </a>
             </div>
           </div>
         </div>
