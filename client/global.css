@@ -270,5 +270,10 @@
     .hero-30-days {
       font-size: 45px;
     }
+
+    /* Footer container mobile fix */
+    .footer-container {
+      padding-bottom: 4rem !important;
+    }
   }
 }
