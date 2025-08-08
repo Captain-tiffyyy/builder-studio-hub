@@ -22,11 +22,10 @@ export default function Footer() {
         {/* Footer Navigation Bar - Single Line */}
         <div className="border-t border-brown/10 py-6 w-full overflow-x-hidden">
           <div
-            className="flex items-center justify-center nowrap w-full max-w-full overflow-x-hidden"
+            className="flex items-center justify-between w-full max-w-full overflow-x-hidden px-4 sm:px-8"
             style={{
               flexWrap: 'nowrap',
               whiteSpace: 'nowrap',
-              gap: 'clamp(12px, 3vw, 32px)',
               fontSize: 'clamp(12px, 1.8vw, 16px)'
             }}
           >
