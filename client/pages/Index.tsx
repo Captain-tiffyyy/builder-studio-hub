@@ -226,7 +226,7 @@ export default function Index() {
       {/* Co-Creators Section */}
       <section className="section-padding">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mr-5">
             <div className="flex justify-center">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/9ab98266a894c3b0bbb9e3b5eab888b3e6c50c1c?width=714"
