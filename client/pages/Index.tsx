@@ -29,6 +29,9 @@ export default function Index() {
                     in <span className="text-red-brand">30 Days</span>.
                   </div>
                 </div>
+                <p className="leading-relaxed">
+                  We leverage our startup experience to build you a digital asset.
+                </p>
               </div>
             </div>
 
