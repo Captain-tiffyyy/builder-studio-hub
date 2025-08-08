@@ -19,10 +19,10 @@ export default function Footer() {
 
   return (
     <footer className="bg-cream-dark">
-      <div className="container-custom">
+      <div className="container-custom flex flex-col">
         {/* Footer Navigation Bar */}
-        <div className="border-t border-brown/10 py-6">
-          <div className="flex items-center justify-between">
+        <div className="border-t border-brown/10 py-6 mx-auto">
+          <div className="flex items-center justify-between gap-12">
             {/* Left side - Navigation Links */}
             <div className="flex items-center gap-8 lg:gap-12">
               {footerLinks.map((link) => (
@@ -55,13 +55,13 @@ export default function Footer() {
         </div>
 
         {/* Main Footer Content - 2 Columns */}
-        <div className="py-16 grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="py-16 grid grid-cols-1 lg:grid-cols-2">
           {/* Left Column - Newsletter Section */}
-          <div className="flex flex-col">
+          <div className="flex flex-col ml-12 -mr-1">
             <h3 className="text-2xl lg:text-3xl font-sans font-light text-gray-blue tracking-wide uppercase mb-6">
               Stay in the Loop
             </h3>
-            <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed">
+            <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed text-left">
               The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
             </p>
             <div className="self-start">
@@ -73,10 +73,10 @@ export default function Footer() {
           </div>
 
           {/* Right Column - Studio Cores Branding */}
-          <div className="flex flex-col items-center justify-center text-center">
+          <div className="flex flex-col items-center justify-center text-center mr-12">
             {/* Studio Cores Branding */}
             <div className="mb-6">
-              <div className="font-luxurious text-6xl lg:text-7xl text-gray-blue mb-2">
+              <div className="font-luxurious text-xs lg:text-7xl text-gray-blue mb-2">
                 Studio
               </div>
               <div className="font-serif text-6xl lg:text-7xl text-gray-blue tracking-tight uppercase">
@@ -85,7 +85,7 @@ export default function Footer() {
             </div>
 
             {/* Follow Us and Social Links - Vertical Stack */}
-            <div className="flex flex-col items-center gap-4">
+            <div className="flex flex-row gap-4">
               <span className="font-luxurious text-3xl text-gray-blue">follow us</span>
               <div className="flex items-center gap-4">
                 <a
