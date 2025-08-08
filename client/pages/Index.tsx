@@ -364,18 +364,7 @@ export default function Index() {
       {/* Stats Section */}
       <section className="section-padding bg-cream/80 overflow-visible" style={{ paddingLeft: 'clamp(16px, 4vw, 48px)', paddingRight: 'clamp(16px, 4vw, 48px)' }}>
         <div className="w-full overflow-visible">
-          <div
-            className="flex justify-center items-center text-center"
-            style={{
-              gap: 'clamp(48px, 8vw, 200px)',
-              flexDirection: 'row',
-              '@media (max-width: 820px)': {
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '32px'
-              }
-            }}
-          >
+          <div className="stats-container">
             {/* Startups Launched */}
             <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
               <div className="mb-4 whitespace-nowrap">
