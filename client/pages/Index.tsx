@@ -20,7 +20,7 @@ export default function Index() {
                     Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
-                  <div className="flex items-baseline gap-1 sm:gap-2 lg:gap-4 mb-2 justify-center lg:justify-start flex-wrap">
+                  <div className="flex items-baseline gap-1 sm:gap-2 lg:gap-4 mb-2 justify-center lg:justify-start">
                     <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown hero-into-a">into a</span>
                     <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown hero-startup">Startup</span>
                   </div>
