@@ -188,7 +188,7 @@ export default function Index() {
                 We Do the Heavy Lifting
               </h3>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 justify-start items-center">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   Your expertise is valuable, but turning it into a revenue-generating tech product? That's where most get stuck.
                 </p>
@@ -203,7 +203,7 @@ export default function Index() {
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/7bee72d8eea8ade9620c372a301afdbfb60de909?width=726"
                 alt="Product development process"
-                className="w-full max-w-sm lg:max-w-md object-cover rounded-lg"
+                className="w-full max-w-sm object-cover overflow-hidden text-center mx-auto"
               />
             </div>
           </div>
@@ -238,10 +238,10 @@ export default function Index() {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="flex justify-center">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/9ab98266a894c3b0bbb9e3b5eab888b3e6c50c1c?width=714" 
-                alt="Collaboration approach" 
-                className="w-full max-w-md object-cover rounded-lg"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/9ab98266a894c3b0bbb9e3b5eab888b3e6c50c1c?width=714"
+                alt="Collaboration approach"
+                className="w-full max-w-sm object-cover overflow-hidden"
               />
             </div>
             <div>
@@ -282,10 +282,10 @@ export default function Index() {
               </div>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/2cf39809acdc5aa8b8ea9bdcfe0c756aa05a4947?width=796" 
-                alt="Understanding your story" 
-                className="w-full max-w-md object-cover rounded-lg"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/2cf39809acdc5aa8b8ea9bdcfe0c756aa05a4947?width=796"
+                alt="Understanding your story"
+                className="w-full max-w-md object-cover overflow-hidden"
               />
             </div>
           </div>
@@ -293,10 +293,10 @@ export default function Index() {
           {/* Step 2 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="flex justify-center order-2 lg:order-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/d356b018a02cd106ba72408b979fd7da4bba980e?width=654" 
-                alt="Building the blueprint" 
-                className="w-full max-w-md object-cover rounded-lg"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/d356b018a02cd106ba72408b979fd7da4bba980e?width=654"
+                alt="Building the blueprint"
+                className="w-full max-w-sm object-cover overflow-hidden"
               />
             </div>
             <div className="order-1 lg:order-2">
@@ -332,10 +332,10 @@ export default function Index() {
               </div>
             </div>
             <div className="flex justify-center">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/454576001c039f5108d997fdc28de4db1ef07e05?width=856" 
-                alt="Building your product" 
-                className="w-full max-w-md object-cover rounded-lg"
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/454576001c039f5108d997fdc28de4db1ef07e05?width=856"
+                alt="Building your product"
+                className="w-full max-w-md object-cover overflow-hidden"
               />
             </div>
           </div>
