@@ -118,7 +118,7 @@ export default function Projects() {
       </section>
 
       {/* Call to Action */}
-      <section className="section-padding bg-cream-dark">
+      <section className="section-padding bg-cream">
         <div className="container-custom text-center">
           <h2 className="font-serif text-3xl lg:text-4xl text-brown mb-8">
             Ready to Start Your Project?
