@@ -54,13 +54,14 @@ export default function Footer() {
 
             {/* Subscribe Button (Horizontal Pill) */}
             <button
-              className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap"
+              className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4"
               style={{
                 paddingLeft: 'clamp(16px, 4vw, 28px)',
                 paddingRight: 'clamp(16px, 4vw, 28px)',
                 paddingTop: '8px',
                 paddingBottom: '8px',
-                height: 'auto'
+                height: 'auto',
+                flexShrink: 0
               }}
             >
               <span>subscribe</span>
