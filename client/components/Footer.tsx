@@ -20,6 +20,42 @@ export default function Footer() {
   return (
     <footer className="bg-cream-dark">
       <div className="container-custom">
+        {/* Footer Navigation */}
+        <div className="border-t border-brown/10 py-8">
+          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+            {footerLinks.map((link) => (
+              link.href.startsWith('#') ? (
+                <button
+                  key={link.label}
+                  onClick={() => handleNavClick(link.href)}
+                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
+                >
+                  {link.label}
+                </Link>
+              )
+            ))}
+
+            {/* Subscribe Button with Arrow */}
+            <div className="flex items-center gap-3">
+              <div className="relative">
+                <div className="w-32 h-8 border border-brown rounded-full transform -rotate-90"></div>
+                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 text-brown font-sans text-xs uppercase tracking-wide hover:text-red-brand transition-colors">
+                  <span>subscribe</span>
+                  <ArrowRight size={16} />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Main Footer Content */}
         <div className="py-16 grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Newsletter Section */}
@@ -46,27 +82,27 @@ export default function Footer() {
                 Cores
               </div>
             </div>
-            
+
             {/* Social Links */}
             <div className="flex items-center gap-6 mb-6">
               <span className="font-luxurious text-3xl text-gray-blue">follow us</span>
               <div className="flex items-center gap-4">
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="Instagram"
                 >
                   <Instagram size={24} />
                 </a>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="YouTube"
                 >
                   <Youtube size={24} />
                 </a>
-                <a 
-                  href="#" 
+                <a
+                  href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="TikTok"
                 >
@@ -80,42 +116,6 @@ export default function Footer() {
 
           {/* Empty column for layout */}
           <div className="lg:col-span-1"></div>
-        </div>
-
-        {/* Footer Navigation */}
-        <div className="border-t border-brown/10 py-8">
-          <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
-            {footerLinks.map((link) => (
-              link.href.startsWith('#') ? (
-                <button
-                  key={link.label}
-                  onClick={() => handleNavClick(link.href)}
-                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                >
-                  {link.label}
-                </button>
-              ) : (
-                <Link
-                  key={link.label}
-                  to={link.href}
-                  className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                >
-                  {link.label}
-                </Link>
-              )
-            ))}
-            
-            {/* Subscribe Button with Arrow */}
-            <div className="flex items-center gap-3">
-              <div className="relative">
-                <div className="w-32 h-8 border border-brown rounded-full transform -rotate-90"></div>
-                <button className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex items-center gap-2 text-brown font-sans text-xs uppercase tracking-wide hover:text-red-brand transition-colors">
-                  <span>subscribe</span>
-                  <ArrowRight size={16} />
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </footer>
