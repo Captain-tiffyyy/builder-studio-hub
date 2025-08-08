@@ -139,10 +139,10 @@ export default function Index() {
                 Now convert that into a revenue-generating
               </div>
               <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
-                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-2 sm:pr-4">
+                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3">
                   Tech Product
                 </span>
-                <span className="block sm:inline mt-1 sm:mt-0">
+                <span className="block sm:inline mt-1 sm:mt-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                   with paid users and global reach
                 </span>
               </div>
