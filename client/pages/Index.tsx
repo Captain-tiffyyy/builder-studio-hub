@@ -443,8 +443,8 @@ export default function Index() {
 
       {/* Newsletter Section */}
       <section id="newsletter" className="section-padding relative">
-        <div className="container-custom">
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-brown text-center sm:text-right mb-8 sm:mb-16">
+        <div className="container-custom flex flex-col">
+          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-brown text-right mx-auto mb-16">
             /Subscribe to Our Newsletter
           </h2>
 
