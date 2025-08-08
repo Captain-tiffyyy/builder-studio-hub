@@ -350,9 +350,9 @@ export default function Index() {
               <p>3. A fully functional product in just <span className="font-bold text-gray-blue">30 days</span>.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button className="btn-primary">
+              <a href="https://t.me/coreslab" target="_blank" rel="noopener noreferrer" className="btn-primary">
                 Text Us
-              </button>
+              </a>
               <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 Book a call
               </a>
