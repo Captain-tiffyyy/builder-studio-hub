@@ -129,32 +129,46 @@ export default function Index() {
       {/* Vision Statement */}
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-gray-blue italic leading-tight mb-16">
-              <div className="mb-4">You've built credibility in your field.</div>
-              <div className="mb-4">Now convert that into a revenue-generating</div>
-              <div>
-                <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic pr-4">Tech Product</span> with paid users and global reach
+          <div className="max-w-5xl mx-auto px-4 sm:px-6">
+            <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
+              {/* Responsive typography with better mobile sizing */}
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
+                You've built credibility in your field.
+              </div>
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
+                Now convert that into a revenue-generating
+              </div>
+              <div className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
+                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-2 sm:pr-4">
+                  Tech Product
+                </span>
+                <span className="block sm:inline mt-1 sm:mt-0">
+                  with paid users and global reach
+                </span>
               </div>
             </h2>
 
-            <div className="flex items-center justify-center gap-4 mb-12">
-              <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+            {/* Mobile-optimized CTA section */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-12 px-4">
+              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
                 so....
               </span>
-              <div className="border border-gray-medium rounded-full px-6 py-2">
-                <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+              <div className="border border-gray-medium rounded-full px-4 sm:px-6 py-2">
+                <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
                   what
                 </span>
               </div>
-              <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
                 are you waiting for?
               </span>
             </div>
 
-            <button className="inline-flex items-center justify-center px-8 py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
-              Book a call with us
-            </button>
+            {/* CTA Button with proper mobile spacing */}
+            <div className="mt-6 mb-6 sm:mt-8 sm:mb-8">
+              <button className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
+                Book a call with us
+              </button>
+            </div>
           </div>
         </div>
       </section>
