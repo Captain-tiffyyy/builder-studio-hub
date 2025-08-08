@@ -328,4 +328,23 @@
       font-size: 25px;
     }
   }
+
+  /* Extra small screens (480px and below) - ensure hero text doesn't break */
+  @media (max-width: 480px) {
+    .hero-turn-expertise {
+      font-size: clamp(24px, 6vw, 28px);
+    }
+
+    .hero-into-a {
+      font-size: clamp(24px, 6vw, 28px);
+    }
+
+    .hero-startup {
+      font-size: clamp(30px, 8vw, 36px);
+    }
+
+    .hero-30-days {
+      font-size: clamp(24px, 6vw, 28px);
+    }
+  }
 }
