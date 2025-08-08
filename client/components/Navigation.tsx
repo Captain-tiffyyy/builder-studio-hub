@@ -79,9 +79,9 @@ export default function Navigation() {
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:block">
-            <button className="btn-primary">
+            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary">
               Book a call with us
-            </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -119,9 +119,9 @@ export default function Navigation() {
                 )
               ))}
               <div className="px-4 pt-4">
-                <button className="btn-primary w-full">
+                <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
                   Book a call with us
-                </button>
+                </a>
               </div>
             </div>
           </div>
