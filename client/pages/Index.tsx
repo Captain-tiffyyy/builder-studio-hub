@@ -368,29 +368,29 @@ export default function Index() {
             {/* Startups Launched */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>28</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>28</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Startups Launched</div>
+              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Startups Launched</div>
             </div>
 
             {/* Countries */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>10</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>10</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-brown text-center pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Countries</div>
+              <div className="font-serif text-brown text-center pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Countries</div>
             </div>
 
             {/* Users */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>5</span>
-                <span className="font-luxurious text-gray-blue ml-1" style={{ fontSize: '80px', lineHeight: '48px' }}>million</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>5</span>
+                <span className="font-luxurious text-gray-blue ml-1" style={{ fontSize: '80px', lineHeight: '80px' }}>million</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Users</div>
+              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Users</div>
             </div>
           </div>
         </div>
