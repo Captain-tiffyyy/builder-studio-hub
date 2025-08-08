@@ -57,7 +57,7 @@ export default function Index() {
                 </div>
 
                 {/* Text block */}
-                <div className="relative text-center">
+                <div className="relative text-center mb-2.5">
                   <span className="text-brown text-lg font-sans text-center bg-cream">
                     <span className="text-center bg-cream">
                       We leverage our startup <br />
