@@ -388,8 +388,8 @@ export default function Index() {
 
       {/* Team Section */}
       <section id="team" className="section-padding">
-        <div className="container-custom">
-          <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16">
+        <div className="container-custom flex flex-col">
+          <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
             /Meet The Team
           </h2>
           
