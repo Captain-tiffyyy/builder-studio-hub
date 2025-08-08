@@ -83,7 +83,7 @@ export default function Footer() {
             }}
           >
             {/* Left Column - Newsletter Section */}
-            <div className="flex flex-col text-left justify-start items-start">
+            <div className="flex flex-col text-left justify-start items-start footer-newsletter">
               <h3
                 className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4 text-center"
                 style={{ fontSize: 'clamp(18px, 2.6vw, 28px)' }}
@@ -99,21 +99,19 @@ export default function Footer() {
               >
                 The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
               </p>
-              <div className="self-start">
-                <button
-                  className="inline-flex items-center gap-2 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium"
-                  style={{
-                    paddingLeft: 'clamp(16px, 4vw, 28px)',
-                    paddingRight: 'clamp(16px, 4vw, 28px)',
-                    paddingTop: '12px',
-                    paddingBottom: '12px',
-                    height: 'auto'
-                  }}
-                >
-                  <Mail size={16} />
-                  Subscribe
-                </button>
-              </div>
+              <button
+                className="inline-flex items-center gap-2 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium self-start footer-subscribe-btn"
+                style={{
+                  paddingLeft: 'clamp(16px, 4vw, 28px)',
+                  paddingRight: 'clamp(16px, 4vw, 28px)',
+                  paddingTop: '12px',
+                  paddingBottom: '12px',
+                  height: 'auto'
+                }}
+              >
+                <Mail size={16} className="footer-subscribe-icon" />
+                <span className="footer-subscribe-text">Subscribe</span>
+              </button>
             </div>
 
             {/* Right Column - Studio Cores Branding */}
