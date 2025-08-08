@@ -78,8 +78,8 @@ export default function Index() {
               </div>
 
               {/* Mobile/Tablet layout - Triangular Grid */}
-              <div className="lg:hidden w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
-                <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 h-80 sm:h-96 md:h-[28rem]">
+              <div className="lg:hidden w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto md:flex md:flex-col">
+                <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 h-80 sm:h-96 md:h-[28rem] md:justify-center md:items-center md:mx-auto">
                   {/* Top-left - Forest desk image */}
                   <div className="col-span-1 flex justify-start items-start pt-4">
                     <img
