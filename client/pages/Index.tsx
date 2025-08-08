@@ -345,9 +345,9 @@ export default function Index() {
             </p>
             <div className="text-brown text-xl lg:text-2xl leading-relaxed mb-8">
               <p className="font-bold mb-4">Here's what you'll get working with us:</p>
-              <p>A super skilled team that's <span className="font-bold text-gray-blue">obsessed</span> with your success.</p>
-              <p>Up to 4 rounds of <span className="font-bold text-gray-blue">thoughtful</span> revisions.</p>
-              <p>A fully functional product in just <span className="font-bold text-gray-blue">30 days</span>.</p>
+              <p>1. A super skilled team that's <span className="font-bold text-gray-blue">obsessed</span> with your success.</p>
+              <p>2. Up to 4 rounds of <span className="font-bold text-gray-blue">thoughtful</span> revisions.</p>
+              <p>3. A fully functional product in just <span className="font-bold text-gray-blue">30 days</span>.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="btn-primary">
