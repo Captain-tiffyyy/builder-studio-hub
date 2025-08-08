@@ -14,12 +14,20 @@ export default function Index() {
             {/* Hero Text */}
             <div className="order-2 lg:order-1">
               <div className="mb-8">
-                <h1 className="font-luxurious text-6xl sm:text-7xl lg:text-8xl xl:text-hero text-brown mb-4 leading-none">
-                  Startup
-                </h1>
-                <div className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-display leading-tight">
-                  <span className="text-brown">Turn Your Expertise into a</span>
-                  <span className="text-red-brand"> in 30 Days.</span>
+                <div className="font-serif leading-tight">
+                  {/* Line 1: Turn Your Expertise. */}
+                  <div className="text-7xl italic text-brown mb-2">
+                    Turn Your Expertise.
+                  </div>
+                  {/* Line 2: into a + Startup */}
+                  <div className="flex items-baseline gap-4 mb-2">
+                    <span className="text-7xl italic text-brown">into a</span>
+                    <span className="font-luxurious text-8xl text-brown">Startup</span>
+                  </div>
+                  {/* Line 3: in 30 Days. */}
+                  <div className="text-7xl text-brown">
+                    in <span className="text-red-brand">30 Days</span>.
+                  </div>
                 </div>
               </div>
             </div>
