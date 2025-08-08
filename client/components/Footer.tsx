@@ -83,9 +83,9 @@ export default function Footer() {
             }}
           >
             {/* Left Column - Newsletter Section */}
-            <div className="flex flex-col text-left">
+            <div className="flex flex-col text-left justify-start items-start">
               <h3
-                className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4"
+                className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4 text-center"
                 style={{ fontSize: 'clamp(18px, 2.6vw, 28px)' }}
               >
                 Stay in the Loop
@@ -117,7 +117,7 @@ export default function Footer() {
             </div>
 
             {/* Right Column - Studio Cores Branding */}
-            <div className="flex flex-col items-center text-center">
+            <div className="flex flex-col items-center text-center ml-8">
               {/* Studio Cores Branding */}
               <div className="mb-3">
                 <div
@@ -135,10 +135,10 @@ export default function Footer() {
               </div>
 
               {/* Follow Us and Social Links */}
-              <div className="flex flex-col items-center" style={{ marginTop: '12px' }}>
+              <div className="flex flex-row" style={{ marginTop: '12px' }}>
                 <span
-                  className="font-luxurious text-gray-blue mb-2"
-                  style={{ fontSize: 'clamp(16px, 3vw, 24px)' }}
+                  className="font-luxurious text-gray-blue"
+                  style={{ fontSize: 'clamp(16px, 3vw, 24px)', margin: '0 15px 8px 0' }}
                 >
                   follow us
                 </span>
