@@ -92,10 +92,12 @@ export default function Index() {
                   {/* Top-right empty space */}
                   <div className="col-span-2"></div>
 
-                  {/* Middle-left empty space */}
-                  <div className="col-span-1"></div>
+                  {/* Middle-left - Text */}
+                  <div className="col-span-1 text-xs leading-tight">
+                    We leverage our startup experience to build you a digital asset.
+                  </div>
 
-                  {/* Middle-right - Man in field + Text */}
+                  {/* Middle-right - Man in field + Empty Text Box */}
                   <div className="col-span-2 flex flex-col items-end gap-3 sm:gap-4 pt-8 sm:pt-12">
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
@@ -103,9 +105,6 @@ export default function Index() {
                       className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
                     />
                     <div className="bg-cream/80 rounded-2xl p-3 sm:p-4 text-center max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem]">
-                      <p className="text-brown text-xs sm:text-sm md:text-base font-sans leading-tight">
-                        We leverage our startup experience to build you a digital asset.
-                      </p>
                     </div>
                   </div>
 
