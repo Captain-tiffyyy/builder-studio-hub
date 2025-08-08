@@ -206,4 +206,47 @@
       gap: 32px;
     }
   }
+
+  /* Footer responsive styles */
+  @media (max-width: 991px) {
+    .footer-newsletter {
+      margin-left: 50px;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .footer-newsletter p {
+      text-align: center;
+    }
+
+    .footer-subscribe-btn {
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .footer-subscribe-icon {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .footer-subscribe-text {
+      text-align: center;
+      margin-right: auto;
+    }
+
+    .footer-branding {
+      margin-right: 10px;
+    }
+
+    .footer-studio,
+    .footer-cores {
+      font-size: 45px;
+    }
+
+    .footer-follow-text {
+      font-size: 22px;
+    }
+  }
 }
