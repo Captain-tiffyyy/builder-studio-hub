@@ -54,7 +54,7 @@ export default function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-4 xl:space-x-8 flex-shrink min-w-0">
             {navItems.map((item) => (
               item.href.startsWith('#') ? (
                 <button
