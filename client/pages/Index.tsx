@@ -174,7 +174,7 @@ export default function Index() {
       </section>
 
       {/* From Concept to Product */}
-      <section id="services" className="section-padding">
+      <section className="section-padding">
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
             <div className="order-2 lg:order-1">
