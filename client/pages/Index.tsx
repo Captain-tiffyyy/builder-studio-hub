@@ -14,18 +14,18 @@ export default function Index() {
             {/* Hero Text */}
             <div className="order-1 lg:order-1">
               <div className="mb-8 lg:mb-0">
-                <div className="font-serif leading-tight text-center lg:text-left">
+                <div className="font-serif leading-tight text-center lg:text-left px-2 sm:px-0 w-full overflow-hidden">
                   {/* Line 1: Turn Your Expertise */}
-                  <div className="text-4xl sm:text-5xl lg:text-7xl italic text-brown mb-2">
+                  <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown mb-2 break-words">
                     Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
-                  <div className="flex items-baseline gap-2 lg:gap-4 mb-2 justify-center lg:justify-start flex-wrap">
-                    <span className="text-4xl sm:text-5xl lg:text-7xl italic text-brown">into a</span>
-                    <span className="font-luxurious text-5xl sm:text-6xl lg:text-8xl text-brown">Startup</span>
+                  <div className="flex items-baseline gap-1 sm:gap-2 lg:gap-4 mb-2 justify-center lg:justify-start flex-wrap">
+                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown">into a</span>
+                    <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown">Startup</span>
                   </div>
                   {/* Line 3: in 30 Days. */}
-                  <div className="text-4xl sm:text-5xl lg:text-7xl text-brown">
+                  <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-brown break-words">
                     in <span className="text-red-brand">30 Days</span>.
                   </div>
                 </div>
