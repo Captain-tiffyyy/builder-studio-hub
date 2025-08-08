@@ -35,7 +35,7 @@ export default function Footer() {
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link.href)}
-                  className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap"
+                  className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap flex-1 text-center"
                   style={{ letterSpacing: '0.05em' }}
                 >
                   {link.label}
