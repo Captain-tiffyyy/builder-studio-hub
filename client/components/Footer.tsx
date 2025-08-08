@@ -133,9 +133,9 @@ export default function Footer() {
               </div>
 
               {/* Follow Us and Social Links */}
-              <div className="flex flex-row" style={{ marginTop: '12px' }}>
+              <div className="flex flex-row footer-social-container" style={{ marginTop: '12px' }}>
                 <span
-                  className="font-luxurious text-gray-blue footer-follow-text"
+                  className="font-luxurious text-gray-blue footer-follow-text footer-follow-small"
                   style={{ fontSize: 'clamp(16px, 3vw, 24px)', margin: '0 15px 8px 0' }}
                 >
                   <span>
