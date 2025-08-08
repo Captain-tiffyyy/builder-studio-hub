@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="border-t border-brown/10 py-6 mx-auto w-full">
           <div className="flex items-center justify-between gap-4 sm:gap-8 lg:gap-28 flex-wrap">
             {/* Left side - Navigation Links */}
-            <div className="flex items-center gap-28">
+            <div className="flex items-center gap-3 sm:gap-6 lg:gap-28 flex-wrap">
               {footerLinks.map((link) => (
                 link.href.startsWith('#') ? (
                   <button
