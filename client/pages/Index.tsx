@@ -34,29 +34,41 @@ export default function Index() {
 
             {/* Hero Images */}
             <div className="order-1 lg:order-2 relative">
-              <div className="grid grid-cols-2 gap-6 h-96 lg:h-[450px]">
-                <div className="flex flex-col gap-6">
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217" 
-                    alt="Startup expertise" 
-                    className="w-full h-40 object-cover rounded-lg"
+              <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
+                {/* Top row - Forest desk image */}
+                <div className="col-span-2 flex justify-end">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
+                    alt="Forest desk workspace"
+                    className="w-24 h-24 object-cover"
                   />
-                  <div className="bg-white/20 p-4 rounded-lg">
-                    <p className="text-brown text-lg">
+                </div>
+
+                {/* Middle row */}
+                <div className="flex justify-start">
+                  {/* Middle left - Man in field */}
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
+                    alt="Man in field"
+                    className="w-24 h-24 object-cover"
+                  />
+                </div>
+
+                <div className="flex justify-end">
+                  {/* Middle right - Text block */}
+                  <div className="w-24 h-24 bg-white/20 p-3 flex items-center justify-center">
+                    <p className="text-brown text-xs leading-tight">
                       We leverage our startup experience to build you a digital asset.
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col gap-6 pt-8">
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268" 
-                    alt="Digital transformation" 
-                    className="w-full h-32 object-cover rounded-lg"
-                  />
-                  <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310" 
-                    alt="Technology solutions" 
-                    className="w-full h-36 object-cover rounded-lg"
+
+                {/* Bottom row - iMac on rock */}
+                <div className="col-span-2 flex justify-end">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
+                    alt="iMac on rock"
+                    className="w-24 h-24 object-cover"
                   />
                 </div>
               </div>
