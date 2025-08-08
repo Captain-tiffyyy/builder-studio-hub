@@ -16,7 +16,7 @@ export default function Navigation() {
 
   const handleNavClick = (href: string) => {
     setIsMenuOpen(false);
-    
+
     if (href.startsWith('#')) {
       // Handle section scrolling
       if (location.pathname !== '/') {
@@ -28,6 +28,19 @@ export default function Navigation() {
         element?.scrollIntoView({ behavior: 'smooth' });
       }
     }
+  };
+
+  const handlePageNavigation = (href: string) => {
+    setIsMenuOpen(false);
+    // Scroll to top after navigation
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, 100);
+  };
+
+  const handleLogoClick = () => {
+    // Scroll to top immediately for logo click
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
