@@ -8,8 +8,8 @@ export default function Index() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="section-padding">
-        <div className="container-custom">
+      <section className="section-padding w-full overflow-x-hidden">
+        <div className="container-custom w-full max-w-full">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Hero Text */}
             <div className="order-1 lg:order-1">
