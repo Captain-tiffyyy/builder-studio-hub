@@ -34,19 +34,20 @@ export default function Index() {
 
             {/* Hero Images */}
             <div className="order-1 lg:order-2 relative">
-              <div className="grid grid-cols-2 gap-4 max-w-md mx-auto">
-                {/* Top row - Forest desk image */}
-                <div className="col-span-2 flex justify-end">
-                  <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
-                    alt="Forest desk workspace"
-                    className="w-24 h-24 object-cover"
-                  />
+              <div className="flex flex-col gap-2 max-w-[522px] mx-auto">
+                {/* Top - Forest desk image */}
+                <img
+                  src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
+                  alt="Forest desk workspace"
+                  className="w-24 h-24 object-cover ml-auto mr-0"
+                  style={{ margin: '0 auto 0 250px' }}
+                />
+
+                <div className="flex justify-end">
                 </div>
 
-                {/* Middle row */}
+                {/* Middle - Man in field */}
                 <div className="flex justify-start">
-                  {/* Middle left - Man in field */}
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
                     alt="Man in field"
@@ -54,21 +55,23 @@ export default function Index() {
                   />
                 </div>
 
-                <div className="flex justify-end">
-                  {/* Middle right - Text block */}
-                  <div className="w-24 h-24 bg-white/20 p-3 flex items-center justify-center">
-                    <p className="text-brown text-xs leading-tight">
-                      We leverage our startup experience to build you a digital asset.
-                    </p>
-                  </div>
+                {/* Text block */}
+                <div className="relative text-center">
+                  <span className="text-brown text-lg font-sans text-center bg-cream">
+                    <span className="text-center bg-cream">
+                      We leverage our startup <br />
+                      experience to build <br />
+                      you a digital asset.
+                    </span>
+                  </span>
                 </div>
 
-                {/* Bottom row - iMac on rock */}
-                <div className="col-span-2 flex justify-end">
+                {/* Bottom - iMac on rock */}
+                <div className="flex justify-end items-start">
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
                     alt="iMac on rock"
-                    className="w-24 h-24 object-cover"
+                    className="w-24 h-24 object-cover mr-[60px]"
                   />
                 </div>
               </div>
