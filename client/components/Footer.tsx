@@ -20,10 +20,10 @@ export default function Footer() {
     <footer className="bg-cream-dark w-full overflow-x-hidden">
       <div className="container-custom flex flex-col w-full max-w-full">
         {/* Footer Navigation Bar */}
-        <div className="border-t border-brown/10 py-6 mx-auto w-full">
-          <div className="flex items-center justify-between gap-4 sm:gap-8 lg:gap-28 flex-wrap">
+        <div className="border-t border-brown/10 py-6 mx-auto w-full flex flex-col">
+          <div className="flex items-center justify-between gap-4 sm:gap-8 lg:gap-44 flex-wrap mx-auto">
             {/* Left side - Navigation Links */}
-            <div className="flex items-center gap-3 sm:gap-6 lg:gap-28 flex-wrap">
+            <div className="flex items-center gap-3 sm:gap-6 lg:gap-44 flex-wrap">
               {footerLinks.map((link) => (
                 link.href.startsWith('#') ? (
                   <button
