@@ -1,5 +1,6 @@
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { Mail } from 'lucide-react';
 
 export default function Index() {
   return (
