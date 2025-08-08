@@ -118,11 +118,26 @@
 
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-cream text-brown font-sans antialiased;
     font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+    max-width: 100%;
+  }
+
+  /* Prevent horizontal overflow globally */
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Ensure all containers are responsive */
+  .container, .container-fluid {
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
   /* Typography Styles */
