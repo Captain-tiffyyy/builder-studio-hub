@@ -18,95 +18,150 @@ export default function Footer() {
 
   return (
     <footer className="bg-cream-dark w-full overflow-x-hidden">
-      <div className="container-custom flex flex-col w-full max-w-full">
-        {/* Footer Navigation Bar */}
-        <div className="border-t border-brown/10 py-6 mx-auto w-full flex flex-col">
-          <div className="flex items-center justify-between gap-4 sm:gap-8 lg:gap-44 flex-wrap mx-auto">
-            {/* Left side - Navigation Links */}
-            <div className="flex items-center gap-3 sm:gap-6 lg:gap-44 flex-wrap">
-              {footerLinks.map((link) => (
-                link.href.startsWith('#') ? (
-                  <button
-                    key={link.label}
-                    onClick={() => handleNavClick(link.href)}
-                    className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                  >
-                    {link.label}
-                  </button>
-                ) : (
-                  <Link
-                    key={link.label}
-                    to={link.href}
-                    className="text-gray-blue font-sans text-base font-light tracking-wide uppercase hover:text-brown transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                )
-              ))}
-            </div>
+      <div className="w-full max-w-full overflow-x-hidden" style={{ paddingBlock: 'clamp(32px, 8vw, 72px)' }}>
+        {/* Footer Navigation Bar - Single Line */}
+        <div className="border-t border-brown/10 py-6 w-full overflow-x-hidden">
+          <div
+            className="flex items-center justify-center nowrap w-full max-w-full overflow-x-hidden"
+            style={{
+              flexWrap: 'nowrap',
+              whiteSpace: 'nowrap',
+              gap: 'clamp(12px, 3vw, 32px)',
+              fontSize: 'clamp(12px, 1.8vw, 16px)'
+            }}
+          >
+            {/* Navigation Links */}
+            {footerLinks.map((link) => (
+              link.href.startsWith('#') ? (
+                <button
+                  key={link.label}
+                  onClick={() => handleNavClick(link.href)}
+                  className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap"
+                  style={{ letterSpacing: '0.05em' }}
+                >
+                  {link.label}
+                </button>
+              ) : (
+                <Link
+                  key={link.label}
+                  to={link.href}
+                  className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap"
+                  style={{ letterSpacing: '0.05em' }}
+                >
+                  {link.label}
+                </Link>
+              )
+            ))}
 
-            {/* Right side - Subscribe Button (Horizontal Pill) */}
-            <button className="inline-flex items-center gap-2 px-6 py-2 border border-brown rounded-full text-brown font-sans text-xs uppercase tracking-wide hover:text-red-brand transition-colors">
+            {/* Subscribe Button (Horizontal Pill) */}
+            <button
+              className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap"
+              style={{
+                paddingLeft: 'clamp(16px, 4vw, 28px)',
+                paddingRight: 'clamp(16px, 4vw, 28px)',
+                paddingTop: '8px',
+                paddingBottom: '8px',
+                height: 'auto'
+              }}
+            >
               <span>subscribe</span>
               <ArrowRight size={14} />
             </button>
           </div>
         </div>
 
-        {/* Main Footer Content - 2 Columns */}
-        <div className="py-16 grid grid-cols-1 lg:grid-cols-2">
+        {/* Main Footer Content - Two Columns on Tablet/Mobile */}
+        <div
+          className="w-full overflow-x-hidden"
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr',
+            gap: 'clamp(16px, 4vw, 32px)',
+            alignItems: 'start',
+            paddingTop: '2rem'
+          }}
+        >
           {/* Left Column - Newsletter Section */}
-          <div className="flex flex-col ml-12 -mr-1">
-            <h3 className="text-2xl lg:text-3xl font-sans font-light text-gray-blue tracking-wide uppercase mb-6 text-center">
+          <div className="flex flex-col text-left">
+            <h3
+              className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4"
+              style={{ fontSize: 'clamp(18px, 2.6vw, 28px)' }}
+            >
               Stay in the Loop
             </h3>
-            <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed text-center">
+            <p
+              className="text-brown mb-6 leading-relaxed"
+              style={{
+                fontSize: 'clamp(14px, 2.2vw, 18px)',
+                maxWidth: '36ch'
+              }}
+            >
               The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
             </p>
-            <div className="self-center">
-              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium justify-center">
-                <Mail size={18} />
+            <div className="self-start">
+              <button
+                className="inline-flex items-center gap-2 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium"
+                style={{
+                  paddingLeft: 'clamp(16px, 4vw, 28px)',
+                  paddingRight: 'clamp(16px, 4vw, 28px)',
+                  paddingTop: '12px',
+                  paddingBottom: '12px',
+                  height: 'auto'
+                }}
+              >
+                <Mail size={16} />
                 Subscribe
               </button>
             </div>
           </div>
 
           {/* Right Column - Studio Cores Branding */}
-          <div className="flex flex-col items-center justify-center text-center mr-12">
+          <div className="flex flex-col items-center text-center">
             {/* Studio Cores Branding */}
-            <div className="mb-6">
-              <div className="font-luxurious text-xs lg:text-7xl text-gray-blue mb-2">
+            <div className="mb-3">
+              <div
+                className="font-luxurious text-gray-blue mb-1"
+                style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
+              >
                 Studio
               </div>
-              <div className="font-serif text-6xl lg:text-7xl text-gray-blue tracking-tight uppercase">
+              <div
+                className="font-serif text-gray-blue tracking-tight uppercase"
+                style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
+              >
                 Cores
               </div>
             </div>
 
-            {/* Follow Us and Social Links - Vertical Stack */}
-            <div className="flex flex-row gap-4">
-              <span className="font-luxurious text-3xl text-gray-blue">follow us</span>
-              <div className="flex items-center gap-4">
+            {/* Follow Us and Social Links */}
+            <div className="flex flex-col items-center" style={{ marginTop: '12px' }}>
+              <span
+                className="font-luxurious text-gray-blue mb-2"
+                style={{ fontSize: 'clamp(16px, 3vw, 24px)' }}
+              >
+                follow us
+              </span>
+              <div className="flex items-center" style={{ gap: '12px' }}>
                 <a
                   href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="Instagram"
                 >
-                  <Instagram size={24} />
+                  <Instagram size={20} />
                 </a>
                 <a
                   href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="YouTube"
                 >
-                  <Youtube size={24} />
+                  <Youtube size={20} />
                 </a>
                 <a
                   href="#"
                   className="text-brown hover:text-red-brand transition-colors"
                   aria-label="TikTok"
                 >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43V7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.43z"/>
                   </svg>
                 </a>
