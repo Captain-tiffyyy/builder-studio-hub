@@ -80,31 +80,49 @@ export default function Index() {
                 </div>
               </div>
 
-              {/* Mobile/Tablet layout */}
-              <div className="lg:hidden flex flex-col items-center space-y-6 sm:space-y-8">
-                {/* Forest desk image */}
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
-                  alt="Forest desk workspace"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover"
-                />
+              {/* Mobile/Tablet layout - Triangular Grid */}
+              <div className="lg:hidden w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
+                <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 h-80 sm:h-96 md:h-[28rem]">
+                  {/* Top-left - Forest desk image */}
+                  <div className="col-span-1 flex justify-start items-start pt-4">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
+                      alt="Forest desk workspace"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                    />
+                  </div>
 
-                {/* Man in field */}
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
-                  alt="Man in field"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover mt-6"
-                />
+                  {/* Top-right empty space */}
+                  <div className="col-span-2"></div>
 
-                {/* iMac on rock */}
-                <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
-                  alt="iMac on rock"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-cover mt-6"
-                />
+                  {/* Middle-left empty space */}
+                  <div className="col-span-1"></div>
 
-                {/* Empty styled div */}
-                <div className="bg-cream/80 rounded-[40px] text-center max-w-xs p-4 mt-6">
+                  {/* Middle-right - Man in field + Text */}
+                  <div className="col-span-2 flex flex-col items-end gap-3 sm:gap-4 pt-8 sm:pt-12">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
+                      alt="Man in field"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                    />
+                    <div className="bg-cream/80 rounded-2xl p-3 sm:p-4 text-center max-w-[8rem] sm:max-w-[10rem] md:max-w-[12rem]">
+                      <p className="text-brown text-xs sm:text-sm md:text-base font-sans leading-tight">
+                        We leverage our startup experience to build you a digital asset.
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Bottom-left - iMac on rock */}
+                  <div className="col-span-1 flex justify-start items-end pb-4">
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
+                      alt="iMac on rock"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                    />
+                  </div>
+
+                  {/* Bottom-right empty space */}
+                  <div className="col-span-2"></div>
                 </div>
               </div>
             </div>
