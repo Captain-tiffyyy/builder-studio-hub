@@ -112,7 +112,7 @@ export default function Navigation() {
                   <Link
                     key={item.label}
                     to={item.href}
-                    onClick={() => setIsMenuOpen(false)}
+                    onClick={() => handlePageNavigation(item.href)}
                     className="block px-4 py-2 text-brown text-lg font-medium hover:text-red-brand transition-colors"
                   >
                     {item.label}
