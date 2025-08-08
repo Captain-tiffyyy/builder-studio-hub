@@ -53,7 +53,10 @@ export default function Footer() {
             ))}
 
             {/* Subscribe Button (Horizontal Pill) */}
-            <button
+            <a
+              href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4"
               style={{
                 paddingLeft: 'clamp(16px, 4vw, 28px)',
@@ -66,7 +69,7 @@ export default function Footer() {
             >
               <span>subscribe</span>
               <ArrowRight size={14} />
-            </button>
+            </a>
           </div>
         </div>
 
@@ -99,7 +102,10 @@ export default function Footer() {
               >
                 The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
               </p>
-              <button
+              <a
+                href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium self-start footer-subscribe-btn"
                 style={{
                   paddingLeft: 'clamp(16px, 4vw, 28px)',
@@ -111,7 +117,7 @@ export default function Footer() {
               >
                 <Mail size={16} className="footer-subscribe-icon" />
                 <span className="footer-subscribe-text">Subscribe</span>
-              </button>
+              </a>
             </div>
 
             {/* Right Column - Studio Cores Branding */}
