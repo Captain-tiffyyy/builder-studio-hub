@@ -58,14 +58,14 @@ export default function Footer() {
         <div className="py-16 grid grid-cols-1 lg:grid-cols-2">
           {/* Left Column - Newsletter Section */}
           <div className="flex flex-col ml-12 -mr-1">
-            <h3 className="text-2xl lg:text-3xl font-sans font-light text-gray-blue tracking-wide uppercase mb-6">
+            <h3 className="text-2xl lg:text-3xl font-sans font-light text-gray-blue tracking-wide uppercase mb-6 text-center">
               Stay in the Loop
             </h3>
-            <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed text-left">
+            <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed text-center">
               The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
             </p>
             <div className="self-start">
-              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium">
+              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium justify-start">
                 <Mail size={18} />
                 Subscribe
               </button>
