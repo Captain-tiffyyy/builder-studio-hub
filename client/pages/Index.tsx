@@ -362,8 +362,8 @@ export default function Index() {
       </section>
 
       {/* Stats Section */}
-      <section className="section-padding bg-cream/80">
-        <div className="container-custom">
+      <section className="section-padding bg-cream/80 overflow-hidden">
+        <div className="container-custom overflow-hidden">
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-52 text-center mx-4">
             {/* Startups Launched */}
             <div className="flex flex-col items-center">
