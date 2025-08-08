@@ -18,7 +18,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-cream-dark w-full overflow-x-hidden">
-      <div className="w-full max-w-full overflow-x-hidden" style={{ paddingBlock: 'clamp(32px, 8vw, 72px)' }}>
+      <div className="w-full max-w-full overflow-x-hidden footer-container" style={{ paddingBlock: 'clamp(32px, 8vw, 72px)' }}>
         {/* Footer Navigation Bar - Full Width Evenly Spaced */}
         <div className="border-t border-brown/10 py-6 w-full overflow-x-hidden">
           <div
