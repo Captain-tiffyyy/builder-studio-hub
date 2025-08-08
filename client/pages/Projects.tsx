@@ -126,9 +126,9 @@ export default function Projects() {
           <p className="text-gray-blue text-xl lg:text-2xl mb-12 max-w-3xl mx-auto">
             Let's discuss how we can turn your expertise into a digital product that generates revenue and reaches a global audience.
           </p>
-          <button className="btn-primary text-lg px-12 py-6">
+          <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-12 py-6">
             Book a Strategy Call
-          </button>
+          </a>
         </div>
       </section>
 
