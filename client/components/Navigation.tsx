@@ -43,9 +43,9 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-cream border-b border-brown/10 sticky top-0 z-50">
-      <div className="container-custom">
-        <div className="flex items-center justify-between h-20 lg:h-24">
+    <nav className="bg-cream border-b border-brown/10 sticky top-0 z-50 w-full overflow-x-hidden">
+      <div className="container-custom max-w-full">
+        <div className="flex items-center justify-between h-20 lg:h-24 w-full">
           {/* Logo */}
           <Link to="/" onClick={handleLogoClick} className="flex items-center">
             <div className="font-luxurious text-4xl lg:text-5xl text-brown">
