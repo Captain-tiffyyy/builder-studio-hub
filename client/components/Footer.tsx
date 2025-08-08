@@ -138,7 +138,9 @@ export default function Footer() {
                   className="font-luxurious text-gray-blue footer-follow-text"
                   style={{ fontSize: 'clamp(16px, 3vw, 24px)', margin: '0 15px 8px 0' }}
                 >
-                  follow us
+                  <span>
+                    <b>follow us</b>
+                  </span>
                 </span>
                 <div className="flex items-center" style={{ gap: '12px' }}>
                   <a
