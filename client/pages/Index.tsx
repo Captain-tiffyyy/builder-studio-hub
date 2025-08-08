@@ -130,21 +130,29 @@ export default function Index() {
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
           <div className="max-w-5xl mx-auto">
-            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-gray-blue italic leading-tight mb-12">
-              You've built credibility in your field. <br className="hidden sm:block" />
-              Now convert that into a revenue-generating <br className="hidden sm:block" />
-              <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic">Tech Product</span> <br className="hidden sm:block" />
-              with paid users and global reach
+            <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-gray-blue italic leading-tight mb-16">
+              <div className="mb-4">You've built credibility in your field.</div>
+              <div className="mb-4">Now convert that into a revenue-generating</div>
+              <div>
+                <span className="font-luxurious text-4xl sm:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl not-italic">Tech Product</span> with paid users and global reach
+              </div>
             </h2>
-            
-            <div className="flex items-center justify-center gap-8 mb-12">
-              <div className="w-28 h-10 border border-gray-medium rounded-full"></div>
-              <p className="text-gray-blue text-xl lg:text-2xl font-light tracking-wider uppercase">
-                so.... what are you waiting for?
-              </p>
+
+            <div className="flex items-center justify-center gap-4 mb-12">
+              <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+                so....
+              </span>
+              <div className="border border-gray-medium rounded-full px-6 py-2">
+                <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+                  what
+                </span>
+              </div>
+              <span className="text-gray-blue text-lg lg:text-xl font-light tracking-wider uppercase">
+                are you waiting for?
+              </span>
             </div>
-            
-            <button className="btn-primary text-lg px-12 py-6">
+
+            <button className="inline-flex items-center justify-center px-8 py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
               Book a call with us
             </button>
           </div>
