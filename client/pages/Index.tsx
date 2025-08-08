@@ -77,51 +77,38 @@ export default function Index() {
                 </div>
               </div>
 
-              {/* Mobile/Tablet layout - Triangular Grid */}
-              <div className="lg:hidden w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto">
-                <div className="relative grid grid-cols-3 gap-4 sm:gap-6 md:gap-8 h-80 sm:h-96 md:h-[28rem] md:flex md:flex-col">
-                  {/* Top-left - Forest desk image */}
-                  <div className="col-span-1 flex justify-start items-start pt-4 md:mx-auto">
+              {/* Mobile/Tablet layout - Centered vertical stack */}
+              <div className="lg:hidden w-full max-w-md mx-auto">
+                <div className="flex flex-col items-center space-y-8 py-8">
+                  {/* Top image - Forest desk workspace, centered */}
+                  <div className="flex justify-center">
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
                       alt="Forest desk workspace"
-                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                      className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 object-cover"
                     />
                   </div>
 
-                  {/* Top-right empty space */}
-                  <div className="col-span-2"></div>
-
-                  {/* Middle-left - Text */}
-                  <div className="col-span-1 text-xs leading-tight md:mx-auto">
+                  {/* Centered text */}
+                  <div className="text-center text-sm sm:text-base leading-relaxed text-brown px-4">
                     We leverage our startup <br />
-                    experience to build you <br />a digital asset.
+                    experience to build you <br />
+                    a digital asset.
                   </div>
 
-                  {/* Images restructured - iMac first, then Man in field */}
-                  <div className="flex flex-row">
+                  {/* Bottom row - Two images evenly spaced */}
+                  <div className="flex justify-between items-center w-full max-w-xs sm:max-w-sm">
                     <img
                       src="https://api.builder.io/api/v1/image/assets/TEMP/45e47cb002d0d69644d921987ad92212cb265519?width=310"
                       alt="iMac on rock"
                       className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
                     />
-                    <div className="flex md:ml-auto">
-                      <img
-                        src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
-                        alt="Man in field"
-                        className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
-                      />
-                    </div>
+                    <img
+                      src="https://api.builder.io/api/v1/image/assets/TEMP/fdb19933282127a6df6a358e7adc8af2970bdc25?width=268"
+                      alt="Man in field"
+                      className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 object-cover"
+                    />
                   </div>
-
-                  {/* Container div */}
-                  <div className="flex">
-                    <div className="col-span-2">
-                    </div>
-                  </div>
-
-                  {/* Bottom section */}
-                  <div></div>
                 </div>
               </div>
             </div>
