@@ -96,8 +96,8 @@ export default function Navigation() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="lg:hidden border-t border-brown/10 bg-cream">
-            <div className="py-4 space-y-4">
+          <div className="lg:hidden border-t border-brown/10 bg-cream w-full overflow-x-hidden">
+            <div className="py-4 space-y-4 w-full">
               {navItems.map((item) => (
                 item.href.startsWith('#') ? (
                   <button
