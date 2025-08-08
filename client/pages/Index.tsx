@@ -15,9 +15,9 @@ export default function Index() {
             <div className="order-2 lg:order-1">
               <div className="mb-8">
                 <div className="font-serif leading-tight">
-                  {/* Line 1: Turn Your Expertise. */}
+                  {/* Line 1: Turn Your Expertise */}
                   <div className="text-7xl italic text-brown mb-2">
-                    Turn Your Expertise.
+                    Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
                   <div className="flex items-baseline gap-4 mb-2">
