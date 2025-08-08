@@ -548,10 +548,10 @@ export default function Index() {
                   <p className="text-brown text-xs sm:text-sm lg:text-base mb-6 sm:mb-8">
                     We share startups ideas, case studies, tech news, tools and resources that will help you in your entrepreneurial journey.
                   </p>
-                  <button className="inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-sm sm:text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center">
+                  <a href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-sm sm:text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center">
                     <Mail size={16} className="sm:w-5 sm:h-5" />
                     Subscribe
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
