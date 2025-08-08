@@ -14,6 +14,32 @@ export default {
     },
     extend: {
       colors: {
+        // Studio Cores Brand Colors
+        cream: {
+          DEFAULT: "#F1E6D3",
+          light: "#F8F4EC",
+          dark: "#ECE8DC",
+        },
+        brown: {
+          DEFAULT: "#210706",
+          light: "#3A1411",
+          dark: "#1C0505",
+        },
+        red: {
+          brand: "#891D1A",
+          light: "#A62B27",
+          dark: "#721814",
+        },
+        gray: {
+          blue: "#5E657B",
+          light: "#858996",
+          medium: "#5E6579",
+        },
+        button: {
+          base: "#DEDBD3",
+          hover: "#D5D1C7",
+        },
+        // Keep existing shadcn colors for compatibility
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -57,6 +83,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      fontFamily: {
+        'luxurious': ['Luxurious Script', 'cursive'],
+        'serif': ['Instrument Serif', 'serif'],
+        'sans': ['Public Sans', 'system-ui', 'sans-serif'],
+        'mono': ['JetBrains Mono', 'monospace'],
+      },
+      fontSize: {
+        'hero': ['100px', { lineHeight: '100px' }],
+        'display': ['75px', { lineHeight: '75px' }],
+        'heading': ['64px', { lineHeight: '54px' }],
+        'subheading': ['50px', { lineHeight: '66px' }],
+        'large': ['37px', { lineHeight: '37px' }],
+      },
+      letterSpacing: {
+        'tighter': '-2.08px',
+        'tight': '-1.8px',
+        'wide': '1.6px',
+        'wider': '2.4px',
+        'widest': '2.6px',
       },
       borderRadius: {
         lg: "var(--radius)",
