@@ -211,7 +211,7 @@ export default function Index() {
       </section>
 
       {/* Our Services */}
-      <section className="section-padding bg-cream">
+      <section id="services" className="section-padding bg-cream">
         <div className="container-custom text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-12">
