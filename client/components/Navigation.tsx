@@ -69,6 +69,7 @@ export default function Navigation() {
                 <Link
                   key={item.label}
                   to={item.href}
+                  onClick={() => handlePageNavigation(item.href)}
                   className="text-brown text-lg font-medium hover:text-red-brand transition-colors"
                 >
                   {item.label}
