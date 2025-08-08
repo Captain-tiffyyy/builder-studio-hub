@@ -17,8 +17,8 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-cream-dark">
-      <div className="container-custom flex flex-col">
+    <footer className="bg-cream-dark w-full overflow-x-hidden">
+      <div className="container-custom flex flex-col w-full max-w-full">
         {/* Footer Navigation Bar */}
         <div className="border-t border-brown/10 py-6 mx-auto">
           <div className="flex items-center justify-between gap-28">
