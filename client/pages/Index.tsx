@@ -362,35 +362,117 @@ export default function Index() {
       </section>
 
       {/* Stats Section */}
-      <section className="section-padding bg-cream/80 overflow-hidden mx-8">
-        <div className="container-custom overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-52 text-center mx-4">
+      <section className="section-padding bg-cream/80 overflow-visible" style={{ paddingLeft: 'clamp(16px, 4vw, 48px)', paddingRight: 'clamp(16px, 4vw, 48px)' }}>
+        <div className="w-full overflow-visible">
+          <div
+            className="flex justify-center items-center text-center"
+            style={{
+              gap: 'clamp(48px, 8vw, 200px)',
+              flexDirection: 'row',
+              '@media (max-width: 820px)': {
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '32px'
+              }
+            }}
+          >
             {/* Startups Launched */}
-            <div className="flex flex-col items-center">
-              <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>28</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
+            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(120px, 18vw, 300px)',
+                    lineHeight: '0.9'
+                  }}
+                >
+                  28
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(40px, 6vw, 100px)',
+                    verticalAlign: 'super'
+                  }}
+                >
+                  +
+                </sup>
               </div>
-              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Startups Launched</div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: 'clamp(22px, 2.2vw, 64px)' }}
+              >
+                Startups Launched
+              </div>
             </div>
 
             {/* Countries */}
-            <div className="flex flex-col items-center">
-              <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>10</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
+            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(120px, 18vw, 300px)',
+                    lineHeight: '0.9'
+                  }}
+                >
+                  10
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(40px, 6vw, 100px)',
+                    verticalAlign: 'super'
+                  }}
+                >
+                  +
+                </sup>
               </div>
-              <div className="font-serif text-brown text-center pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Countries</div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: 'clamp(22px, 2.2vw, 64px)' }}
+              >
+                Countries
+              </div>
             </div>
 
             {/* Users */}
-            <div className="flex flex-col items-center">
-              <div className="mb-3">
-                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '200px' }}>5</span>
-                <span className="font-luxurious text-gray-blue ml-1" style={{ fontSize: '80px', lineHeight: '80px' }}>million</span>
-                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '60px', top: '-18px' }}>+</sup>
+            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(120px, 18vw, 300px)',
+                    lineHeight: '0.9'
+                  }}
+                >
+                  5
+                </span>
+                <span
+                  className="font-luxurious text-gray-blue ml-2"
+                  style={{
+                    fontSize: 'clamp(60px, 9vw, 150px)',
+                    lineHeight: '0.9'
+                  }}
+                >
+                  million
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: 'clamp(40px, 6vw, 100px)',
+                    verticalAlign: 'super'
+                  }}
+                >
+                  +
+                </sup>
               </div>
-              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '48px' }}>Users</div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: 'clamp(22px, 2.2vw, 64px)' }}
+              >
+                Users
+              </div>
             </div>
           </div>
         </div>
