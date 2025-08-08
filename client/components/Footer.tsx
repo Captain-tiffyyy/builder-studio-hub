@@ -64,8 +64,8 @@ export default function Footer() {
             <p className="text-brown text-lg lg:text-xl mb-8 leading-relaxed text-center">
               The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
             </p>
-            <div className="self-start">
-              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium justify-start">
+            <div className="self-center">
+              <button className="inline-flex items-center gap-3 px-8 py-4 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium justify-center">
                 <Mail size={18} />
                 Subscribe
               </button>
