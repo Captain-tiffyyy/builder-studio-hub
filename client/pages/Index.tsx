@@ -374,33 +374,33 @@ export default function Index() {
       {/* Stats Section */}
       <section className="section-padding bg-cream/80">
         <div className="container-custom">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 lg:gap-24 text-center">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-52 text-center mx-4">
             {/* Startups Launched */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">28</span>
-                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>28</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Startups Launched</div>
+              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Startups Launched</div>
             </div>
 
             {/* Countries */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">10</span>
-                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>10</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Countries</div>
+              <div className="font-serif text-brown text-center pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Countries</div>
             </div>
 
             {/* Users */}
             <div className="flex flex-col items-center">
               <div className="mb-3">
-                <span className="font-serif text-6xl sm:text-7xl lg:text-8xl xl:text-9xl text-gray-blue leading-none">5</span>
-                <span className="font-luxurious text-3xl sm:text-4xl lg:text-5xl text-gray-blue ml-1">million</span>
-                <sup className="font-serif text-2xl sm:text-3xl lg:text-4xl text-gray-blue ml-1">+</sup>
+                <span className="font-serif text-gray-blue leading-none" style={{ fontSize: '200px', lineHeight: '96px' }}>5</span>
+                <span className="font-luxurious text-gray-blue ml-1" style={{ fontSize: '80px', lineHeight: '48px' }}>million</span>
+                <sup className="font-serif text-gray-blue ml-1" style={{ fontSize: '60px', lineHeight: '40px', top: '-18px' }}>+</sup>
               </div>
-              <div className="font-serif text-lg sm:text-xl lg:text-2xl text-brown">Users</div>
+              <div className="font-serif text-brown pt-4" style={{ fontSize: '40px', lineHeight: '32px' }}>Users</div>
             </div>
           </div>
         </div>
