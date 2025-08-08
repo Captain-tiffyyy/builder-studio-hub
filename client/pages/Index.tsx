@@ -166,7 +166,7 @@ export default function Index() {
       {/* From Concept to Product */}
       <section className="section-padding">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start ml-5">
             <div className="order-2 lg:order-1">
               {/* Main heading - keep on one line */}
               <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-blue italic leading-tight mb-4">
