@@ -282,6 +282,26 @@
 
   /* Small screen responsive styles (640px and below) */
   @media (max-width: 640px) {
+    /* Hero text - even smaller screens, preserve layout */
+    .hero-turn-expertise {
+      font-size: clamp(28px, 7vw, 36px);
+      white-space: nowrap;
+    }
+
+    .hero-into-a {
+      font-size: clamp(28px, 7vw, 36px);
+      white-space: nowrap;
+    }
+
+    .hero-startup {
+      font-size: clamp(36px, 9vw, 46px);
+      white-space: nowrap;
+    }
+
+    .hero-30-days {
+      font-size: clamp(28px, 7vw, 36px);
+    }
+
     .footer-branding-container {
       display: flex;
       flex-direction: column;
