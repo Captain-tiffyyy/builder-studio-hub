@@ -176,26 +176,34 @@ export default function Index() {
       {/* From Concept to Product */}
       <section id="services" className="section-padding">
         <div className="container-custom">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue italic leading-tight mb-8">
-                <span className="text-6xl lg:text-7xl not-italic">From Concept to Product</span> <br />
-                We Do the Heavy Lifting
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+            <div className="order-2 lg:order-1">
+              {/* Main heading - keep on one line */}
+              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-blue italic leading-tight mb-4">
+                From Concept to Product
               </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <p className="text-brown text-xl lg:text-2xl leading-relaxed">
+
+              {/* Subtitle */}
+              <h3 className="font-serif text-xl sm:text-2xl md:text-3xl lg:text-4xl text-gray-blue italic leading-tight mb-8">
+                We Do the Heavy Lifting
+              </h3>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+                <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   Your expertise is valuable, but turning it into a revenue-generating tech product? That's where most get stuck.
                 </p>
-                <p className="text-brown text-xl lg:text-2xl leading-relaxed">
+                <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   Well, we're here to smooth out those bumps and guide you towards a brand and product that truly reflects you.
                 </p>
               </div>
             </div>
-            <div className="flex justify-center">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/7bee72d8eea8ade9620c372a301afdbfb60de909?width=726" 
-                alt="Product development process" 
-                className="w-full max-w-md object-cover rounded-lg"
+
+            {/* Image - right on desktop, below text on mobile/tablet */}
+            <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+              <img
+                src="https://api.builder.io/api/v1/image/assets/TEMP/7bee72d8eea8ade9620c372a301afdbfb60de909?width=726"
+                alt="Product development process"
+                className="w-full max-w-sm lg:max-w-md object-cover rounded-lg"
               />
             </div>
           </div>
