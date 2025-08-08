@@ -48,7 +48,7 @@ export default function Navigation() {
       <div className="container-custom">
         <div className="flex items-center justify-between h-20 lg:h-24">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to="/" onClick={handleLogoClick} className="flex items-center">
             <div className="font-luxurious text-4xl lg:text-5xl text-brown">
               Studio Cores
             </div>
