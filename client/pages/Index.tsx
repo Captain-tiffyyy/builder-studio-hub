@@ -381,7 +381,8 @@ export default function Index() {
                   className="font-luxurious text-gray-blue"
                   style={{
                     fontSize: 'clamp(40px, 6vw, 100px)',
-                    verticalAlign: 'super'
+                    verticalAlign: 'super',
+                    marginLeft: '10px'
                   }}
                 >
                   +
@@ -389,7 +390,7 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: 'clamp(22px, 2.2vw, 64px)' }}
+                style={{ fontSize: 'clamp(40px, 2.2vw, 64px)' }}
               >
                 Startups Launched
               </div>
