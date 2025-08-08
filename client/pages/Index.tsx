@@ -16,16 +16,16 @@ export default function Index() {
               <div className="mb-8 lg:mb-0">
                 <div className="font-serif leading-tight text-center lg:text-left px-2 sm:px-0 w-full overflow-hidden">
                   {/* Line 1: Turn Your Expertise */}
-                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl italic text-brown mb-2 break-words">
+                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl italic text-brown mb-2 break-words hero-turn-expertise">
                     Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
                   <div className="flex items-baseline gap-1 sm:gap-2 lg:gap-4 mb-2 justify-center lg:justify-start flex-wrap">
-                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown">into a</span>
-                    <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown">Startup</span>
+                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown hero-into-a">into a</span>
+                    <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown hero-startup">Startup</span>
                   </div>
                   {/* Line 3: in 30 Days. */}
-                  <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-brown break-words">
+                  <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-brown break-words hero-30-days">
                     in <span className="text-red-brand">30 Days</span>.
                   </div>
                 </div>
