@@ -248,5 +248,26 @@
     .footer-follow-text {
       font-size: 22px;
     }
+
+    .footer-heading {
+      margin: 0 auto;
+    }
+
+    /* Hero responsive typography */
+    .hero-turn-expertise {
+      font-size: 45px;
+    }
+
+    .hero-into-a {
+      font-size: 45px;
+    }
+
+    .hero-startup {
+      font-size: 58px;
+    }
+
+    .hero-30-days {
+      font-size: 45px;
+    }
   }
 }
