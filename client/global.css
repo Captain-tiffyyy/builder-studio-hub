@@ -254,21 +254,24 @@
       margin: 0 auto;
     }
 
-    /* Hero responsive typography */
+    /* Hero responsive typography - maintain three-line layout */
     .hero-turn-expertise {
-      font-size: 45px;
+      font-size: clamp(36px, 8vw, 45px);
+      white-space: nowrap;
     }
 
     .hero-into-a {
-      font-size: 45px;
+      font-size: clamp(36px, 8vw, 45px);
+      white-space: nowrap;
     }
 
     .hero-startup {
-      font-size: 58px;
+      font-size: clamp(46px, 10vw, 58px);
+      white-space: nowrap;
     }
 
     .hero-30-days {
-      font-size: 45px;
+      font-size: clamp(36px, 8vw, 45px);
     }
 
     /* Footer container mobile fix */
