@@ -216,7 +216,7 @@ export default function Index() {
               <p>Workflow Automations</p>
               <p>AI Tools</p>
             </div>
-            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-12 py-6">
+            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-12 py-6 strategy-call-button">
               Book A Free Strategy Call
             </a>
           </div>
