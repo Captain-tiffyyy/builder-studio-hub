@@ -10,7 +10,10 @@ export default function Footer() {
   ];
 
   const handleNavClick = (href: string) => {
-    if (href.startsWith('#')) {
+    if (href === '/') {
+      // Scroll to top of page
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (href.startsWith('#')) {
       const element = document.querySelector(href);
       element?.scrollIntoView({ behavior: 'smooth' });
     }
