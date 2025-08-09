@@ -12,7 +12,9 @@ export default function Navigation() {
     if (location.pathname === '/' && location.hash) {
       // Small delay to ensure the page has rendered
       setTimeout(() => {
-        const element = document.querySelector(location.hash);
+        // Clean the hash by removing any query parameters
+        const cleanHash = location.hash.split('?')[0];
+        const element = document.querySelector(cleanHash);
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
         }
