@@ -6,7 +6,7 @@ export default function Footer() {
     { label: 'Home', href: '/' },
     { label: 'Services', href: '#services' },
     { label: 'Team', href: '#team' },
-    { label: 'Inquire', href: '#contact' },
+    { label: 'Projects', href: '/projects' },
   ];
 
   const handleNavClick = (href: string) => {
@@ -16,6 +16,9 @@ export default function Footer() {
     } else if (href.startsWith('#')) {
       const element = document.querySelector(href);
       element?.scrollIntoView({ behavior: 'smooth' });
+    } else if (href === '/projects') {
+      // Navigate to projects page
+      window.location.href = '/projects';
     }
   };
 
@@ -34,7 +37,7 @@ export default function Footer() {
           >
             {/* Navigation Links */}
             {footerLinks.map((link) => (
-              link.href.startsWith('#') || link.href === '/' ? (
+              link.href.startsWith('#') || link.href === '/' || link.href === '/projects' ? (
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link.href)}
@@ -57,7 +60,7 @@ export default function Footer() {
 
             {/* Subscribe Button (Horizontal Pill) */}
             <a
-              href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist"
+              href="https://calendly.com/juliacores/welcome-call-studio-cores"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4"
@@ -70,7 +73,7 @@ export default function Footer() {
                 flexShrink: 0
               }}
             >
-              <span>subscribe</span>
+              <span>Book a Call</span>
               <ArrowRight size={14} />
             </a>
           </div>
