@@ -150,7 +150,9 @@ export default function Footer() {
                 </span>
                 <div className="flex items-center" style={{ gap: '12px' }}>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/studiocores.co/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-brown hover:text-red-brand transition-colors"
                     aria-label="Instagram"
                   >
