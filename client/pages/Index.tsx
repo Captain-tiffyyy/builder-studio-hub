@@ -235,7 +235,7 @@ export default function Index() {
               />
             </div>
             <div>
-              <h2 className="text-4xl lg:text-5xl text-brown font-serif leading-tight mb-8">
+              <h2 className="text-4xl lg:text-5xl text-brown font-serif leading-tight mb-8 co-creators-heading">
                 We're Different: <br />
                 Co‑Creators, Not Contractors
               </h2>
