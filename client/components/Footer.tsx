@@ -157,7 +157,9 @@ export default function Footer() {
                     <Instagram size={20} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/studio-cores-co/about/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-brown hover:text-red-brand transition-colors"
                     aria-label="LinkedIn"
                   >
