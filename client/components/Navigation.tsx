@@ -1,10 +1,11 @@
 import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const navigate = useNavigate();
 
   const navItems = [
     { label: 'Services', href: '#services' },
@@ -20,7 +21,7 @@ export default function Navigation() {
       // Handle section scrolling
       if (location.pathname !== '/') {
         // If not on homepage, navigate to homepage first then scroll
-        window.location.href = '/' + href;
+        navigate('/' + href);
       } else {
         // Already on homepage, just scroll
         const element = document.querySelector(href);
