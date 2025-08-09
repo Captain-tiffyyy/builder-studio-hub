@@ -34,7 +34,7 @@ export default function Footer() {
           >
             {/* Navigation Links */}
             {footerLinks.map((link) => (
-              link.href.startsWith('#') ? (
+              link.href.startsWith('#') || link.href === '/' ? (
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link.href)}
