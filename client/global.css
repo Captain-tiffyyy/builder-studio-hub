@@ -297,6 +297,14 @@
 
   /* Small screen responsive styles (640px and below) */
   @media (max-width: 640px) {
+    /* Book A Free Strategy Call button - smaller text to fit on one line */
+    .strategy-call-button {
+      font-size: 14px !important;
+      padding-left: 24px !important;
+      padding-right: 24px !important;
+      white-space: nowrap !important;
+    }
+
     /* Co-Creators heading - keep on one line on mobile */
     .co-creators-heading {
       font-size: clamp(28px, 6vw, 36px) !important;
