@@ -1,48 +1,53 @@
-import { Link } from 'react-router-dom';
-import { Mail, Instagram, ArrowRight, Linkedin } from 'lucide-react';
+import { Link } from "react-router-dom";
+import { Mail, Instagram, ArrowRight, Linkedin } from "lucide-react";
 
 export default function Footer() {
   const footerLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'Services', href: '#services' },
-    { label: 'Team', href: '#team' },
-    { label: 'Projects', href: '/projects' },
+    { label: "Home", href: "/" },
+    { label: "Services", href: "#services" },
+    { label: "Team", href: "#team" },
+    { label: "Projects", href: "/projects" },
   ];
 
   const handleNavClick = (href: string) => {
-    if (href === '/') {
+    if (href === "/") {
       // Scroll to top of page
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    } else if (href.startsWith('#')) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else if (href.startsWith("#")) {
       const element = document.querySelector(href);
-      element?.scrollIntoView({ behavior: 'smooth' });
-    } else if (href === '/projects') {
+      element?.scrollIntoView({ behavior: "smooth" });
+    } else if (href === "/projects") {
       // Navigate to projects page
-      window.location.href = '/projects';
+      window.location.href = "/projects";
     }
   };
 
   return (
     <footer className="bg-cream-dark w-full overflow-x-hidden">
-      <div className="w-full max-w-full overflow-x-hidden footer-container" style={{ paddingBlock: 'clamp(32px, 8vw, 72px)' }}>
+      <div
+        className="w-full max-w-full overflow-x-hidden footer-container"
+        style={{ paddingBlock: "clamp(32px, 8vw, 72px)" }}
+      >
         {/* Footer Navigation Bar - Full Width Evenly Spaced */}
         <div className="border-t border-brown/10 py-6 w-full overflow-x-hidden">
           <div
             className="flex items-center justify-between w-full max-w-full overflow-x-hidden px-4 sm:px-8"
             style={{
-              flexWrap: 'nowrap',
-              whiteSpace: 'nowrap',
-              fontSize: 'clamp(12px, 1.8vw, 16px)'
+              flexWrap: "nowrap",
+              whiteSpace: "nowrap",
+              fontSize: "clamp(12px, 1.8vw, 16px)",
             }}
           >
             {/* Navigation Links */}
-            {footerLinks.map((link) => (
-              link.href.startsWith('#') || link.href === '/' || link.href === '/projects' ? (
+            {footerLinks.map((link) =>
+              link.href.startsWith("#") ||
+              link.href === "/" ||
+              link.href === "/projects" ? (
                 <button
                   key={link.label}
                   onClick={() => handleNavClick(link.href)}
                   className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap flex-1 text-center"
-                  style={{ letterSpacing: '0.05em' }}
+                  style={{ letterSpacing: "0.05em" }}
                 >
                   {link.label}
                 </button>
@@ -51,12 +56,12 @@ export default function Footer() {
                   key={link.label}
                   to={link.href}
                   className="text-gray-blue font-sans font-light uppercase hover:text-brown transition-colors whitespace-nowrap flex-1 text-center"
-                  style={{ letterSpacing: '0.05em' }}
+                  style={{ letterSpacing: "0.05em" }}
                 >
                   {link.label}
                 </Link>
-              )
-            ))}
+              ),
+            )}
 
             {/* Subscribe Button (Horizontal Pill) */}
             <a
@@ -65,12 +70,12 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4 footer-book-call-mobile"
               style={{
-                paddingLeft: 'clamp(16px, 4vw, 28px)',
-                paddingRight: 'clamp(16px, 4vw, 28px)',
-                paddingTop: '8px',
-                paddingBottom: '8px',
-                height: 'auto',
-                flexShrink: 0
+                paddingLeft: "clamp(16px, 4vw, 28px)",
+                paddingRight: "clamp(16px, 4vw, 28px)",
+                paddingTop: "8px",
+                paddingBottom: "8px",
+                height: "auto",
+                flexShrink: 0,
               }}
             >
               <span>Book a Call</span>
@@ -84,29 +89,30 @@ export default function Footer() {
           <div
             className="max-w-4xl w-full overflow-x-hidden"
             style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr 1fr',
-              gap: 'clamp(32px, 6vw, 64px)',
-              alignItems: 'start',
-              paddingTop: '2rem'
+              display: "grid",
+              gridTemplateColumns: "1fr 1fr",
+              gap: "clamp(32px, 6vw, 64px)",
+              alignItems: "start",
+              paddingTop: "2rem",
             }}
           >
             {/* Left Column - Newsletter Section */}
             <div className="flex flex-col text-left justify-start items-start footer-newsletter">
               <h3
                 className="font-sans font-light text-gray-blue tracking-wide uppercase mb-4 text-center footer-heading"
-                style={{ fontSize: 'clamp(18px, 2.6vw, 28px)' }}
+                style={{ fontSize: "clamp(18px, 2.6vw, 28px)" }}
               >
                 Stay in the Loop
               </h3>
               <p
                 className="text-brown mb-6 leading-relaxed"
                 style={{
-                  fontSize: 'clamp(14px, 2.2vw, 18px)',
-                  maxWidth: '36ch'
+                  fontSize: "clamp(14px, 2.2vw, 18px)",
+                  maxWidth: "36ch",
                 }}
               >
-                The newsletter is a place where we share valuable case studies, news, tools and resources that we've learned about to you.
+                The newsletter is a place where we share valuable case studies,
+                news, tools and resources that we've learned about to you.
               </p>
               <a
                 href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist"
@@ -114,11 +120,11 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-full border-2 border-gray-blue bg-gray-blue text-cream font-sans text-sm font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium self-start footer-subscribe-btn"
                 style={{
-                  paddingLeft: 'clamp(16px, 4vw, 28px)',
-                  paddingRight: 'clamp(16px, 4vw, 28px)',
-                  paddingTop: '12px',
-                  paddingBottom: '12px',
-                  height: 'auto'
+                  paddingLeft: "clamp(16px, 4vw, 28px)",
+                  paddingRight: "clamp(16px, 4vw, 28px)",
+                  paddingTop: "12px",
+                  paddingBottom: "12px",
+                  height: "auto",
                 }}
               >
                 <Mail size={16} className="footer-subscribe-icon" />
@@ -132,29 +138,35 @@ export default function Footer() {
               <div className="mb-3 footer-branding-container">
                 <div
                   className="font-luxurious text-gray-blue mb-1 footer-studio footer-studio-small"
-                  style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
+                  style={{ fontSize: "clamp(28px, 6vw, 64px)" }}
                 >
                   Studio
                 </div>
                 <div
                   className="font-serif text-gray-blue tracking-tight uppercase footer-cores footer-cores-small"
-                  style={{ fontSize: 'clamp(28px, 6vw, 64px)' }}
+                  style={{ fontSize: "clamp(28px, 6vw, 64px)" }}
                 >
                   Cores
                 </div>
               </div>
 
               {/* Follow Us and Social Links */}
-              <div className="flex flex-row footer-social-container" style={{ marginTop: '12px' }}>
+              <div
+                className="flex flex-row footer-social-container"
+                style={{ marginTop: "12px" }}
+              >
                 <span
                   className="font-luxurious text-gray-blue footer-follow-text footer-follow-small"
-                  style={{ fontSize: 'clamp(16px, 3vw, 24px)', margin: '0 15px 8px 0' }}
+                  style={{
+                    fontSize: "clamp(16px, 3vw, 24px)",
+                    margin: "0 15px 8px 0",
+                  }}
                 >
                   <span>
                     <b>follow us</b>
                   </span>
                 </span>
-                <div className="flex items-center" style={{ gap: '12px' }}>
+                <div className="flex items-center" style={{ gap: "12px" }}>
                   <a
                     href="https://www.instagram.com/studiocores.co/"
                     target="_blank"

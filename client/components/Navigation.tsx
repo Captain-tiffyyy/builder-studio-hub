@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { X } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+import { X } from "lucide-react";
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -9,38 +9,38 @@ export default function Navigation() {
 
   // Handle scrolling to sections when arriving at main page with hash
   useEffect(() => {
-    if (location.pathname === '/' && location.hash) {
+    if (location.pathname === "/" && location.hash) {
       // Small delay to ensure the page has rendered
       setTimeout(() => {
         // Clean the hash by removing any query parameters
-        const cleanHash = location.hash.split('?')[0];
+        const cleanHash = location.hash.split("?")[0];
         const element = document.querySelector(cleanHash);
         if (element) {
-          element.scrollIntoView({ behavior: 'smooth' });
+          element.scrollIntoView({ behavior: "smooth" });
         }
       }, 100);
     }
   }, [location]);
 
   const navItems = [
-    { label: 'Services', href: '#services' },
-    { label: 'Team', href: '#team' },
-    { label: 'Projects', href: '/projects' },
-    { label: 'Newsletter', href: '#newsletter' },
+    { label: "Services", href: "#services" },
+    { label: "Team", href: "#team" },
+    { label: "Projects", href: "/projects" },
+    { label: "Newsletter", href: "#newsletter" },
   ];
 
   const handleNavClick = (href: string) => {
     setIsMenuOpen(false);
 
-    if (href.startsWith('#')) {
+    if (href.startsWith("#")) {
       // Handle section scrolling
-      if (location.pathname !== '/') {
+      if (location.pathname !== "/") {
         // If not on homepage, navigate to homepage first then scroll
-        navigate('/' + href);
+        navigate("/" + href);
       } else {
         // Already on homepage, just scroll
         const element = document.querySelector(href);
-        element?.scrollIntoView({ behavior: 'smooth' });
+        element?.scrollIntoView({ behavior: "smooth" });
       }
     }
   };
@@ -49,21 +49,28 @@ export default function Navigation() {
     setIsMenuOpen(false);
     // Scroll to top after navigation
     setTimeout(() => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: "smooth" });
     }, 100);
   };
 
   const handleLogoClick = () => {
     // Scroll to top immediately for logo click
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
-    <nav className="bg-cream border-b border-brown/10 sticky top-0 z-50 w-full overflow-x-hidden" style={{ paddingTop: 'max(env(safe-area-inset-top), 20px)' }}>
+    <nav
+      className="bg-cream border-b border-brown/10 sticky top-0 z-50 w-full overflow-x-hidden"
+      style={{ paddingTop: "max(env(safe-area-inset-top), 20px)" }}
+    >
       <div className="container-custom max-w-full">
         <div className="flex items-center justify-between h-20 lg:h-24 w-full">
           {/* Logo */}
-          <Link to="/" onClick={handleLogoClick} className="flex items-center min-w-0 flex-shrink-0">
+          <Link
+            to="/"
+            onClick={handleLogoClick}
+            className="flex items-center min-w-0 flex-shrink-0"
+          >
             <div className="font-luxurious text-3xl sm:text-4xl lg:text-5xl text-brown whitespace-nowrap">
               Studio Cores
             </div>
@@ -71,8 +78,8 @@ export default function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-4 xl:space-x-8 flex-shrink min-w-0">
-            {navItems.map((item) => (
-              item.href.startsWith('#') ? (
+            {navItems.map((item) =>
+              item.href.startsWith("#") ? (
                 <button
                   key={item.label}
                   onClick={() => handleNavClick(item.href)}
@@ -89,13 +96,18 @@ export default function Navigation() {
                 >
                   {item.label}
                 </Link>
-              )
-            ))}
+              ),
+            )}
           </div>
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:block">
-            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a
+              href="https://calendly.com/juliacores/welcome-call-studio-cores"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
               Book a call with us
             </a>
           </div>
@@ -106,7 +118,15 @@ export default function Navigation() {
             className="lg:hidden p-2 text-brown hover:text-red-brand transition-colors"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <img src="https://cdn.builder.io/api/v1/image/assets%2F3872be85ddb740cfa5647cc8f711c874%2F8fc4475acef440c99ae70e15109584ba?format=webp&width=800" alt="Menu" className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16" />}
+            {isMenuOpen ? (
+              <X size={24} />
+            ) : (
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F3872be85ddb740cfa5647cc8f711c874%2F8fc4475acef440c99ae70e15109584ba?format=webp&width=800"
+                alt="Menu"
+                className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16"
+              />
+            )}
           </button>
         </div>
 
@@ -114,8 +134,8 @@ export default function Navigation() {
         {isMenuOpen && (
           <div className="lg:hidden border-t border-brown/10 bg-cream w-full overflow-x-hidden">
             <div className="py-4 space-y-4 w-full">
-              {navItems.map((item) => (
-                item.href.startsWith('#') ? (
+              {navItems.map((item) =>
+                item.href.startsWith("#") ? (
                   <button
                     key={item.label}
                     onClick={() => handleNavClick(item.href)}
@@ -132,10 +152,15 @@ export default function Navigation() {
                   >
                     {item.label}
                   </Link>
-                )
-              ))}
+                ),
+              )}
               <div className="px-4 pt-4">
-                <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary w-full">
+                <a
+                  href="https://calendly.com/juliacores/welcome-call-studio-cores"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-primary w-full"
+                >
                   Book a call with us
                 </a>
               </div>

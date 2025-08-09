@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Instrument+Serif:ital,wght@0,400;1,400&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Script&family=Instrument+Serif:ital,wght@0,400;1,400&family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -11,24 +11,24 @@
    */
   :root {
     /* Studio Cores Brand Colors */
-    --cream: #F1E6D3;
-    --cream-light: #F8F4EC;
-    --cream-dark: #ECE8DC;
+    --cream: #f1e6d3;
+    --cream-light: #f8f4ec;
+    --cream-dark: #ece8dc;
 
     --brown: #210706;
-    --brown-light: #3A1411;
-    --brown-dark: #1C0505;
+    --brown-light: #3a1411;
+    --brown-dark: #1c0505;
 
-    --red-brand: #891D1A;
-    --red-light: #A62B27;
+    --red-brand: #891d1a;
+    --red-light: #a62b27;
     --red-dark: #721814;
 
-    --gray-blue: #5E657B;
+    --gray-blue: #5e657b;
     --gray-light: #858996;
-    --gray-medium: #5E6579;
+    --gray-medium: #5e6579;
 
-    --button-base: #DEDBD3;
-    --button-hover: #D5D1C7;
+    --button-base: #dedbd3;
+    --button-hover: #d5d1c7;
 
     /* Keep shadcn variables for components compatibility */
     --background: 37 21% 87%;
@@ -123,7 +123,9 @@
 
   body {
     @apply bg-cream text-brown font-sans antialiased;
-    font-feature-settings: "rlig" 1, "calt" 1;
+    font-feature-settings:
+      "rlig" 1,
+      "calt" 1;
     overflow-x: hidden;
     max-width: 100%;
   }
@@ -135,7 +137,8 @@
   }
 
   /* Ensure all containers are responsive */
-  .container, .container-fluid {
+  .container,
+  .container-fluid {
     overflow-x: hidden;
     max-width: 100%;
   }

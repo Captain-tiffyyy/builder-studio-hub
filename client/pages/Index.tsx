@@ -1,12 +1,12 @@
-import Navigation from '@/components/Navigation';
-import Footer from '@/components/Footer';
-import { Mail } from 'lucide-react';
+import Navigation from "@/components/Navigation";
+import Footer from "@/components/Footer";
+import { Mail } from "lucide-react";
 
 export default function Index() {
   return (
     <div className="min-h-screen bg-cream">
       <Navigation />
-      
+
       {/* Hero Section */}
       <section className="section-padding w-full overflow-x-hidden">
         <div className="container-custom w-full max-w-full">
@@ -21,8 +21,12 @@ export default function Index() {
                   </div>
                   {/* Line 2: into a + Startup */}
                   <div className="flex items-baseline gap-1 sm:gap-2 lg:gap-4 mb-2 justify-center lg:justify-start">
-                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown hero-into-a">into a</span>
-                    <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown hero-startup">Startup</span>
+                    <span className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl italic text-brown hero-into-a">
+                      into a
+                    </span>
+                    <span className="font-luxurious text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-brown hero-startup">
+                      Startup
+                    </span>
                   </div>
                   {/* Line 3: in 30 Days. */}
                   <div className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl text-brown break-words hero-30-days">
@@ -41,11 +45,10 @@ export default function Index() {
                   src="https://api.builder.io/api/v1/image/assets/TEMP/c7ddd7a73ba4d61f2866725104a123ce35148df1?width=217"
                   alt="Forest desk workspace"
                   className="w-24 h-24 object-cover ml-auto mr-0"
-                  style={{ margin: '0 auto 0 250px' }}
+                  style={{ margin: "0 auto 0 250px" }}
                 />
 
-                <div className="flex justify-end">
-                </div>
+                <div className="flex justify-end"></div>
 
                 {/* Middle - Man in field */}
                 <div className="flex justify-start">
@@ -92,8 +95,7 @@ export default function Index() {
                   {/* Centered text */}
                   <div className="text-center text-sm sm:text-base leading-relaxed text-brown px-4">
                     We leverage our startup <br />
-                    experience to build you <br />
-                    a digital asset.
+                    experience to build you <br />a digital asset.
                   </div>
 
                   {/* Bottom row - Two images evenly spaced */}
@@ -155,7 +157,12 @@ export default function Index() {
 
             {/* CTA Button with proper mobile spacing */}
             <div className="mt-6 mb-6 sm:mt-8 sm:mb-8">
-              <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover">
+              <a
+                href="https://calendly.com/juliacores/welcome-call-studio-cores"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover"
+              >
                 Book a call with us
               </a>
             </div>
@@ -180,10 +187,12 @@ export default function Index() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 justify-start items-center">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Your expertise is valuable, but turning it into a revenue-generating tech product? That's where most get stuck.
+                  Your expertise is valuable, but turning it into a
+                  revenue-generating tech product? That's where most get stuck.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Well, we're here to smooth out those bumps and guide you towards a brand and product that truly reflects you.
+                  Well, we're here to smooth out those bumps and guide you
+                  towards a brand and product that truly reflects you.
                 </p>
               </div>
             </div>
@@ -216,7 +225,12 @@ export default function Index() {
               <p>Workflow Automations</p>
               <p>AI Tools</p>
             </div>
-            <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-primary text-lg px-12 py-6 strategy-call-button">
+            <a
+              href="https://calendly.com/juliacores/welcome-call-studio-cores"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-lg px-12 py-6 strategy-call-button"
+            >
               Book A Free Strategy Call
             </a>
           </div>
@@ -241,10 +255,12 @@ export default function Index() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  Think of us not just as your developers, but as the co-creator of your online universe.
+                  Think of us not just as your developers, but as the co-creator
+                  of your online universe.
                 </p>
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  We help you build a digital product where your knowledge can truly shine. Let's make some magic together, shall we?
+                  We help you build a digital product where your knowledge can
+                  truly shine. Let's make some magic together, shall we?
                 </p>
               </div>
             </div>
@@ -264,10 +280,13 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  We begin with your story and expertise. Who are you? What's your mission? We'll talk about your goals, values, passions – all the things that make you, well, you.
+                  We begin with your story and expertise. Who are you? What's
+                  your mission? We'll talk about your goals, values, passions –
+                  all the things that make you, well, you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  This isn't just about understanding your project idea; it's about understanding the soul behind it.
+                  This isn't just about understanding your project idea; it's
+                  about understanding the soul behind it.
                 </p>
               </div>
             </div>
@@ -296,10 +315,15 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know who you are, it's time to plan how we'll bring your product to life. We'll conduct a full market research and technical audit to bring your idea to life with the best tools and packaging.
+                  Now that we know who you are, it's time to plan how we'll
+                  bring your product to life. We'll conduct a full market
+                  research and technical audit to bring your idea to life with
+                  the best tools and packaging.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  We'll build a clear project roadmap: what's happening, when, and why — with milestones that keep everything on track and moving forward.
+                  We'll build a clear project roadmap: what's happening, when,
+                  and why — with milestones that keep everything on track and
+                  moving forward.
                 </p>
               </div>
             </div>
@@ -314,10 +338,14 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now it's time to roll up our sleeves and build. We'll take everything we've learned about you — your story, your values, the blueprint we've made — and start building your product.
+                  Now it's time to roll up our sleeves and build. We'll take
+                  everything we've learned about you — your story, your values,
+                  the blueprint we've made — and start building your product.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Through agile development, weekly check-ins and user-testing, we'll make sure every step of the way feels easy and intentional.
+                  Through agile development, weekly check-ins and user-testing,
+                  we'll make sure every step of the way feels easy and
+                  intentional.
                 </p>
               </div>
             </div>
@@ -336,24 +364,49 @@ export default function Index() {
       <section className="section-padding">
         <div className="container-custom text-center">
           <h2 className="font-serif text-4xl lg:text-6xl text-red-brand mb-8">
-            We'll launch your <span className="font-luxurious text-6xl lg:text-8xl">Startup</span> in 1 month
+            We'll launch your{" "}
+            <span className="font-luxurious text-6xl lg:text-8xl">Startup</span>{" "}
+            in 1 month
           </h2>
-          
+
           <div className="max-w-4xl mx-auto bg-cream/45 border-2 border-gray-medium rounded-3xl p-8 lg:p-12 shadow-lg mb-16">
             <p className="text-brown text-xl lg:text-2xl font-light mb-6">
               We promise it'll be the best investment you make this year.
             </p>
             <div className="text-brown text-xl lg:text-2xl leading-relaxed mb-8">
-              <p className="font-bold mb-4">Here's what you'll get working with us:</p>
-              <p>1. A super skilled team that's <span className="font-bold text-gray-blue">obsessed</span> with your success.</p>
-              <p>2. Up to 4 rounds of <span className="font-bold text-gray-blue">thoughtful</span> revisions.</p>
-              <p>3. A fully functional product in just <span className="font-bold text-gray-blue">30 days</span>.</p>
+              <p className="font-bold mb-4">
+                Here's what you'll get working with us:
+              </p>
+              <p>
+                1. A super skilled team that's{" "}
+                <span className="font-bold text-gray-blue">obsessed</span> with
+                your success.
+              </p>
+              <p>
+                2. Up to 4 rounds of{" "}
+                <span className="font-bold text-gray-blue">thoughtful</span>{" "}
+                revisions.
+              </p>
+              <p>
+                3. A fully functional product in just{" "}
+                <span className="font-bold text-gray-blue">30 days</span>.
+              </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="https://t.me/coreslab" target="_blank" rel="noopener noreferrer" className="btn-primary">
+              <a
+                href="https://t.me/coreslab"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
                 Text Us
               </a>
-              <a href="https://calendly.com/juliacores/welcome-call-studio-cores" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+              <a
+                href="https://calendly.com/juliacores/welcome-call-studio-cores"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-secondary"
+              >
                 Book a call
               </a>
             </div>
@@ -362,17 +415,26 @@ export default function Index() {
       </section>
 
       {/* Stats Section */}
-      <section className="section-padding bg-cream/80 overflow-visible" style={{ paddingLeft: 'clamp(16px, 4vw, 48px)', paddingRight: 'clamp(16px, 4vw, 48px)' }}>
+      <section
+        className="section-padding bg-cream/80 overflow-visible"
+        style={{
+          paddingLeft: "clamp(16px, 4vw, 48px)",
+          paddingRight: "clamp(16px, 4vw, 48px)",
+        }}
+      >
         <div className="w-full overflow-visible">
           <div className="stats-container">
             {/* Startups Launched */}
-            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
               <div className="mb-4 whitespace-nowrap">
                 <span
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(120px, 18vw, 300px)',
-                    lineHeight: '0.9'
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
                   }}
                 >
                   28
@@ -380,9 +442,9 @@ export default function Index() {
                 <sup
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(40px, 6vw, 100px)',
-                    verticalAlign: 'super',
-                    marginLeft: '10px'
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
                   }}
                 >
                   +
@@ -390,20 +452,23 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: 'clamp(40px, 2.2vw, 64px)' }}
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
               >
                 Startups Launched
               </div>
             </div>
 
             {/* Countries */}
-            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
               <div className="mb-4 whitespace-nowrap">
                 <span
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(120px, 18vw, 300px)',
-                    lineHeight: '0.9'
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
                   }}
                 >
                   10
@@ -411,9 +476,9 @@ export default function Index() {
                 <sup
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(40px, 6vw, 100px)',
-                    verticalAlign: 'super',
-                    marginLeft: '10px'
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
                   }}
                 >
                   +
@@ -421,20 +486,23 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: 'clamp(40px, 2.2vw, 64px)' }}
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
               >
                 Countries
               </div>
             </div>
 
             {/* Users */}
-            <div className="flex flex-col items-center max-w-full" style={{ maxWidth: '100%' }}>
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
               <div className="mb-4 whitespace-nowrap">
                 <span
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(120px, 18vw, 300px)',
-                    lineHeight: '0.9'
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
                   }}
                 >
                   5
@@ -442,8 +510,8 @@ export default function Index() {
                 <span
                   className="font-luxurious text-gray-blue ml-2"
                   style={{
-                    fontSize: 'clamp(60px, 9vw, 150px)',
-                    lineHeight: '0.9'
+                    fontSize: "clamp(60px, 9vw, 150px)",
+                    lineHeight: "0.9",
                   }}
                 >
                   million
@@ -451,9 +519,9 @@ export default function Index() {
                 <sup
                   className="font-luxurious text-gray-blue"
                   style={{
-                    fontSize: 'clamp(40px, 6vw, 100px)',
-                    verticalAlign: 'super',
-                    marginLeft: '10px'
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
                   }}
                 >
                   +
@@ -461,7 +529,7 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: 'clamp(40px, 2.2vw, 64px)' }}
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
               >
                 Users
               </div>
@@ -476,7 +544,7 @@ export default function Index() {
           <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
             /Meet The Team
           </h2>
-          
+
           <div className="space-y-16">
             {/* Tiffany */}
             <div className="bg-white/10 border border-brown/10 rounded-lg p-6 sm:p-8 lg:p-12 shadow-lg">
@@ -487,14 +555,23 @@ export default function Index() {
                     alt="Tiffany - Founder of Studio Cores"
                     className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
                   />
-                  <h3 className="font-mono text-lg text-brown font-medium mb-1">Tiffany</h3>
+                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
+                    Tiffany
+                  </h3>
                   <p className="font-mono text-sm text-brown">
                     Founder of <em>Studio Cores</em>
                   </p>
                 </div>
                 <div className="lg:col-span-3">
                   <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
-                    Hey. I'm Tiffany. I'm someone who's always full of ideas and always chasing new ways to bring them to life. I've built and scaled 6 ventures, studied at one of the top business schools in the world, and worked in 5 different countries. Along the way, I've picked up a lot of experience and lessons in product and brand building. If want to create something that stands out in the world, I'd love to build it with you.
+                    Hey. I'm Tiffany. I'm someone who's always full of ideas and
+                    always chasing new ways to bring them to life. I've built
+                    and scaled 6 ventures, studied at one of the top business
+                    schools in the world, and worked in 5 different countries.
+                    Along the way, I've picked up a lot of experience and
+                    lessons in product and brand building. If want to create
+                    something that stands out in the world, I'd love to build it
+                    with you.
                   </p>
                 </div>
               </div>
@@ -505,7 +582,14 @@ export default function Index() {
               <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
                 <div className="lg:col-span-3 order-2 lg:order-1">
                   <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
-                    Hi! I'm Julia. I've founded 25 startups, exited 2 and bootstrapped a product to 150K+ users without any budget. I've started building tech products since I was 16 because I'm passionate about solving people's problems. I've been to 56 countries and lived in 13 :). I love entrepreneurship because it gives me the opportunity to create the biggest impact. My mission is to help other entrepreneurs launch their ideas faster.
+                    Hi! I'm Julia. I've founded 25 startups, exited 2 and
+                    bootstrapped a product to 150K+ users without any budget.
+                    I've started building tech products since I was 16 because
+                    I'm passionate about solving people's problems. I've been to
+                    56 countries and lived in 13 :). I love entrepreneurship
+                    because it gives me the opportunity to create the biggest
+                    impact. My mission is to help other entrepreneurs launch
+                    their ideas faster.
                   </p>
                 </div>
                 <div className="lg:col-span-1 order-1 lg:order-2 text-center lg:text-left">
@@ -514,7 +598,9 @@ export default function Index() {
                     alt="Julia - Founder of Studio Cores"
                     className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
                   />
-                  <h3 className="font-mono text-lg text-brown font-medium mb-1">Julia</h3>
+                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
+                    Julia
+                  </h3>
                   <p className="font-mono text-sm text-brown">
                     Founder of <em>Studio Cores</em>
                   </p>
@@ -536,7 +622,8 @@ export default function Index() {
             <div
               className="relative w-full max-w-4xl h-80 sm:h-96 bg-cover bg-center rounded-3xl overflow-hidden"
               style={{
-                backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/d5be7445b44b2f6ef7cf5df7b8323b4ffcc1fa3e?width=1964')"
+                backgroundImage:
+                  "url('https://api.builder.io/api/v1/image/assets/TEMP/d5be7445b44b2f6ef7cf5df7b8323b4ffcc1fa3e?width=1964')",
               }}
             >
               <div className="absolute inset-0 bg-brown/20"></div>
@@ -546,9 +633,16 @@ export default function Index() {
                     Stay in the Loop
                   </h3>
                   <p className="text-brown text-xs sm:text-sm lg:text-base mb-6 sm:mb-8">
-                    We share startups ideas, case studies, tech news, tools and resources that will help you in your entrepreneurial journey.
+                    We share startups ideas, case studies, tech news, tools and
+                    resources that will help you in your entrepreneurial
+                    journey.
                   </p>
-                  <a href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-sm sm:text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center">
+                  <a
+                    href="https://studiocores.substack.com/?r=68rebb&utm_campaign=pub-share-checklist"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-3 px-6 sm:px-8 py-3 sm:py-4 rounded-full border-2 border-white/35 bg-gray-blue text-cream font-sans text-sm sm:text-base font-bold tracking-wide uppercase transition-colors hover:bg-gray-medium w-full justify-center"
+                  >
                     <Mail size={16} className="sm:w-5 sm:h-5" />
                     Subscribe
                   </a>
