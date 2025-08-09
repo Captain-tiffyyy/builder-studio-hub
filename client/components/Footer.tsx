@@ -63,7 +63,7 @@ export default function Footer() {
               href="https://calendly.com/juliacores/welcome-call-studio-cores"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4"
+              className="inline-flex items-center gap-2 border border-brown rounded-full text-brown font-sans text-xs uppercase hover:text-red-brand transition-colors whitespace-nowrap ml-4 footer-book-call-mobile"
               style={{
                 paddingLeft: 'clamp(16px, 4vw, 28px)',
                 paddingRight: 'clamp(16px, 4vw, 28px)',
