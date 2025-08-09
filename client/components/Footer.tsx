@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Mail, Instagram, Youtube, ArrowRight } from 'lucide-react';
+import { Mail, Instagram, ArrowRight, Linkedin } from 'lucide-react';
 
 export default function Footer() {
   const footerLinks = [
@@ -159,9 +159,9 @@ export default function Footer() {
                   <a
                     href="#"
                     className="text-brown hover:text-red-brand transition-colors"
-                    aria-label="YouTube"
+                    aria-label="LinkedIn"
                   >
-                    <Youtube size={20} />
+                    <Linkedin size={20} />
                   </a>
                   <a
                     href="#"
