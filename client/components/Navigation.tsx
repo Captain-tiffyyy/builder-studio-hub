@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 
@@ -6,6 +6,19 @@ export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
+
+  // Handle scrolling to sections when arriving at main page with hash
+  useEffect(() => {
+    if (location.pathname === '/' && location.hash) {
+      // Small delay to ensure the page has rendered
+      setTimeout(() => {
+        const element = document.querySelector(location.hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 100);
+    }
+  }, [location]);
 
   const navItems = [
     { label: 'Services', href: '#services' },
