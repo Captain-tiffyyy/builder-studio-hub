@@ -57,7 +57,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className="bg-cream border-b border-brown/10 sticky top-0 z-50 w-full overflow-x-hidden">
+    <nav className="bg-cream border-b border-brown/10 sticky top-0 z-50 w-full overflow-x-hidden" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
       <div className="container-custom max-w-full">
         <div className="flex items-center justify-between h-20 lg:h-24 w-full">
           {/* Logo */}
