@@ -106,7 +106,7 @@ export default function Navigation() {
             className="lg:hidden p-2 text-brown hover:text-red-brand transition-colors"
             aria-label="Toggle menu"
           >
-            {isMenuOpen ? <X size={24} /> : <img src="https://cdn.builder.io/api/v1/image/assets%2F3872be85ddb740cfa5647cc8f711c874%2F8fc4475acef440c99ae70e15109584ba?format=webp&width=800" alt="Menu" className="w-6 h-6" />}
+            {isMenuOpen ? <X size={24} /> : <img src="https://cdn.builder.io/api/v1/image/assets%2F3872be85ddb740cfa5647cc8f711c874%2F8fc4475acef440c99ae70e15109584ba?format=webp&width=800" alt="Menu" className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12" />}
           </button>
         </div>
 
