@@ -297,6 +297,11 @@
 
   /* Small screen responsive styles (640px and below) */
   @media (max-width: 640px) {
+    /* Co-Creators heading - keep on one line on mobile */
+    .co-creators-heading {
+      font-size: clamp(28px, 6vw, 36px) !important;
+    }
+
     /* Hero text - even smaller screens, preserve layout */
     .hero-turn-expertise {
       font-size: clamp(28px, 7vw, 36px);
