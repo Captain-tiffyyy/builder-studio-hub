@@ -118,6 +118,130 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Stats Section */}
+      <section
+        className="section-padding bg-cream/80 overflow-visible"
+        style={{
+          paddingLeft: "clamp(16px, 4vw, 48px)",
+          paddingRight: "clamp(16px, 4vw, 48px)",
+        }}
+      >
+        <div className="w-full overflow-visible">
+          <div className="stats-container">
+            {/* Startups Launched */}
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
+                  }}
+                >
+                  28
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
+                  }}
+                >
+                  +
+                </sup>
+              </div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+              >
+                Startups Launched
+              </div>
+            </div>
+
+            {/* Countries */}
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
+                  }}
+                >
+                  10
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
+                  }}
+                >
+                  +
+                </sup>
+              </div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+              >
+                Countries
+              </div>
+            </div>
+
+            {/* Users */}
+            <div
+              className="flex flex-col items-center max-w-full"
+              style={{ maxWidth: "100%" }}
+            >
+              <div className="mb-4 whitespace-nowrap">
+                <span
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(120px, 18vw, 300px)",
+                    lineHeight: "0.9",
+                  }}
+                >
+                  5
+                </span>
+                <span
+                  className="font-luxurious text-gray-blue ml-2"
+                  style={{
+                    fontSize: "clamp(60px, 9vw, 150px)",
+                    lineHeight: "0.9",
+                  }}
+                >
+                  million
+                </span>
+                <sup
+                  className="font-luxurious text-gray-blue"
+                  style={{
+                    fontSize: "clamp(40px, 6vw, 100px)",
+                    verticalAlign: "super",
+                    marginLeft: "10px",
+                  }}
+                >
+                  +
+                </sup>
+              </div>
+              <div
+                className="font-serif text-brown text-center"
+                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+              >
+                Users
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Vision Statement */}
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
@@ -364,7 +488,7 @@ export default function Index() {
       <section className="section-padding">
         <div className="container-custom text-center">
           <h2 className="font-serif text-4xl lg:text-6xl text-red-brand mb-8">
-            We'll launch your{" "}
+            We'll launch your {" "}
             <span className="font-luxurious text-6xl lg:text-8xl">Startup</span>{" "}
             in 1 month
           </h2>
@@ -378,12 +502,12 @@ export default function Index() {
                 Here's what you'll get working with us:
               </p>
               <p>
-                1. A super skilled team that's{" "}
+                1. A super skilled team that's {" "}
                 <span className="font-bold text-gray-blue">obsessed</span> with
                 your success.
               </p>
               <p>
-                2. Up to 4 rounds of{" "}
+                2. Up to 4 rounds of {" "}
                 <span className="font-bold text-gray-blue">thoughtful</span>{" "}
                 revisions.
               </p>
@@ -409,130 +533,6 @@ export default function Index() {
               >
                 Book a call
               </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section
-        className="section-padding bg-cream/80 overflow-visible"
-        style={{
-          paddingLeft: "clamp(16px, 4vw, 48px)",
-          paddingRight: "clamp(16px, 4vw, 48px)",
-        }}
-      >
-        <div className="w-full overflow-visible">
-          <div className="stats-container">
-            {/* Startups Launched */}
-            <div
-              className="flex flex-col items-center max-w-full"
-              style={{ maxWidth: "100%" }}
-            >
-              <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
-                    lineHeight: "0.9",
-                  }}
-                >
-                  28
-                </span>
-                <sup
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
-                    verticalAlign: "super",
-                    marginLeft: "10px",
-                  }}
-                >
-                  +
-                </sup>
-              </div>
-              <div
-                className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
-              >
-                Startups Launched
-              </div>
-            </div>
-
-            {/* Countries */}
-            <div
-              className="flex flex-col items-center max-w-full"
-              style={{ maxWidth: "100%" }}
-            >
-              <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
-                    lineHeight: "0.9",
-                  }}
-                >
-                  10
-                </span>
-                <sup
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
-                    verticalAlign: "super",
-                    marginLeft: "10px",
-                  }}
-                >
-                  +
-                </sup>
-              </div>
-              <div
-                className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
-              >
-                Countries
-              </div>
-            </div>
-
-            {/* Users */}
-            <div
-              className="flex flex-col items-center max-w-full"
-              style={{ maxWidth: "100%" }}
-            >
-              <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
-                    lineHeight: "0.9",
-                  }}
-                >
-                  5
-                </span>
-                <span
-                  className="font-luxurious text-gray-blue ml-2"
-                  style={{
-                    fontSize: "clamp(60px, 9vw, 150px)",
-                    lineHeight: "0.9",
-                  }}
-                >
-                  million
-                </span>
-                <sup
-                  className="font-luxurious text-gray-blue"
-                  style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
-                    verticalAlign: "super",
-                    marginLeft: "10px",
-                  }}
-                >
-                  +
-                </sup>
-              </div>
-              <div
-                className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
-              >
-                Users
-              </div>
             </div>
           </div>
         </div>
