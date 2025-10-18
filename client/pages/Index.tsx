@@ -242,6 +242,79 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section id="team" className="section-padding">
+        <div className="container-custom flex flex-col">
+          <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
+            /Meet The Team
+          </h2>
+
+          <div className="space-y-16">
+            {/* Tiffany */}
+            <div className="bg-white/10 border border-brown/10 rounded-lg p-6 sm:p-8 lg:p-12 shadow-lg">
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+                <div className="lg:col-span-1 text-center lg:text-left">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/7c0a8210444773e4f08d558b0f05c7ed8459eb02?width=473"
+                    alt="Tiffany - Founder of Studio Cores"
+                    className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
+                  />
+                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
+                    Tiffany
+                  </h3>
+                  <p className="font-mono text-sm text-brown">
+                    Founder of <em>Studio Cores</em>
+                  </p>
+                </div>
+                <div className="lg:col-span-3">
+                  <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
+                    Hey. I'm Tiffany. I'm someone who's always full of ideas and
+                    always chasing new ways to bring them to life. I've built
+                    and scaled 6 ventures, studied at one of the top business
+                    schools in the world, and worked in 5 different countries.
+                    Along the way, I've picked up a lot of experience and
+                    lessons in product and brand building. If want to create
+                    something that stands out in the world, I'd love to build it
+                    with you.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Julia */}
+            <div className="bg-white/10 border border-brown/10 rounded-lg p-6 sm:p-8 lg:p-12 shadow-lg">
+              <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
+                <div className="lg:col-span-3 order-2 lg:order-1">
+                  <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
+                    Hi! I'm Julia. I've founded 25 startups, exited 2 and
+                    bootstrapped a product to 150K+ users without any budget.
+                    I've started building tech products since I was 16 because
+                    I'm passionate about solving people's problems. I've been to
+                    56 countries and lived in 13 :). I love entrepreneurship
+                    because it gives me the opportunity to create the biggest
+                    impact. My mission is to help other entrepreneurs launch
+                    their ideas faster.
+                  </p>
+                </div>
+                <div className="lg:col-span-1 order-1 lg:order-2 text-center lg:text-left">
+                  <img
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/1d06e6076daf08dba081831d86a6dcd95f03e229?width=473"
+                    alt="Julia - Founder of Studio Cores"
+                    className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
+                  />
+                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
+                    Julia
+                  </h3>
+                  <p className="font-mono text-sm text-brown">
+                    Founder of <em>Studio Cores</em>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Vision Statement */}
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
@@ -533,79 +606,6 @@ export default function Index() {
               >
                 Book a call
               </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Team Section */}
-      <section id="team" className="section-padding">
-        <div className="container-custom flex flex-col">
-          <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
-            /Meet The Team
-          </h2>
-
-          <div className="space-y-16">
-            {/* Tiffany */}
-            <div className="bg-white/10 border border-brown/10 rounded-lg p-6 sm:p-8 lg:p-12 shadow-lg">
-              <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-                <div className="lg:col-span-1 text-center lg:text-left">
-                  <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/7c0a8210444773e4f08d558b0f05c7ed8459eb02?width=473"
-                    alt="Tiffany - Founder of Studio Cores"
-                    className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
-                  />
-                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
-                    Tiffany
-                  </h3>
-                  <p className="font-mono text-sm text-brown">
-                    Founder of <em>Studio Cores</em>
-                  </p>
-                </div>
-                <div className="lg:col-span-3">
-                  <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
-                    Hey. I'm Tiffany. I'm someone who's always full of ideas and
-                    always chasing new ways to bring them to life. I've built
-                    and scaled 6 ventures, studied at one of the top business
-                    schools in the world, and worked in 5 different countries.
-                    Along the way, I've picked up a lot of experience and
-                    lessons in product and brand building. If want to create
-                    something that stands out in the world, I'd love to build it
-                    with you.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Julia */}
-            <div className="bg-white/10 border border-brown/10 rounded-lg p-6 sm:p-8 lg:p-12 shadow-lg">
-              <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-                <div className="lg:col-span-3 order-2 lg:order-1">
-                  <p className="text-brown text-base sm:text-lg lg:text-xl leading-relaxed text-center lg:text-left">
-                    Hi! I'm Julia. I've founded 25 startups, exited 2 and
-                    bootstrapped a product to 150K+ users without any budget.
-                    I've started building tech products since I was 16 because
-                    I'm passionate about solving people's problems. I've been to
-                    56 countries and lived in 13 :). I love entrepreneurship
-                    because it gives me the opportunity to create the biggest
-                    impact. My mission is to help other entrepreneurs launch
-                    their ideas faster.
-                  </p>
-                </div>
-                <div className="lg:col-span-1 order-1 lg:order-2 text-center lg:text-left">
-                  <img
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/1d06e6076daf08dba081831d86a6dcd95f03e229?width=473"
-                    alt="Julia - Founder of Studio Cores"
-                    className="w-40 h-48 sm:w-48 sm:h-56 object-cover rounded-xl border border-brown mb-4 mx-auto lg:mx-0"
-                  />
-                  <h3 className="font-mono text-lg text-brown font-medium mb-1">
-                    Julia
-                  </h3>
-                  <p className="font-mono text-sm text-brown">
-                    Founder of <em>Studio Cores</em>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
