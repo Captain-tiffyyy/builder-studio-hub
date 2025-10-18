@@ -336,9 +336,6 @@ export default function Index() {
                 They just can't find the time, team, or technical partner
               </div>
               <div className="hero-text-line-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
-                <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3 hero-tech-product">
-                  to make them real
-                </span>
                 <span className="hero-with-paid-users block sm:inline mt-1 sm:mt-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
                   That's where we come in.
                 </span>
