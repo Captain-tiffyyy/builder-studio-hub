@@ -334,7 +334,7 @@ export default function Index() {
               </div>
 
               <div className="hero-text-line-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                They just can't find the time, team, or technical partner
+                They just can't find the time or technical team
               </div>
 
               <div className="hero-text-line-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
