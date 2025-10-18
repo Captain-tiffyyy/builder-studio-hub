@@ -266,7 +266,7 @@ export default function Index() {
                     Tiffany
                   </h3>
                   <p className="font-mono text-sm text-brown">
-                    Founder of <em>Studio Cores</em>
+                    Co‑founder of <em>Studio Cores</em>
                   </p>
                 </div>
                 <div className="lg:col-span-3">
@@ -309,7 +309,7 @@ export default function Index() {
                     Julia
                   </h3>
                   <p className="font-mono text-sm text-brown">
-                    Founder of <em>Studio Cores</em>
+                    Co‑founder of <em>Studio Cores</em>
                   </p>
                 </div>
               </div>
