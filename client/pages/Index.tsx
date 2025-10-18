@@ -330,17 +330,17 @@ export default function Index() {
             <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
               {/* Responsive typography with mobile 3-line layout */}
               <div className="hero-text-line-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                You've built credibility in your field.
+                Most founders we meet have great ideas.
               </div>
               <div className="hero-text-line-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                Now convert that into a revenue-generating
+                they just can't find the time, team, or technical partner
               </div>
               <div className="hero-text-line-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
                 <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3 hero-tech-product">
-                  Tech Product
+                  to make them real
                 </span>
                 <span className="hero-with-paid-users block sm:inline mt-1 sm:mt-0 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl">
-                  with paid users and global reach
+                  That's where we come in.
                 </span>
               </div>
             </h2>
