@@ -128,7 +128,7 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-8">
-            <h3 className="font-serif text-3xl lg:text-4xl text-brown mb-6">We make launching feel easy</h3>
+            <h2 className="font-serif text-4xl lg:text-6xl text-brown mb-8">/We Make Launching Feel Easy</h2>
           </div>
           <div className="stats-container">
             {/* Startups Launched */}
