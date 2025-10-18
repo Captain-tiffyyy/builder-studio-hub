@@ -330,10 +330,10 @@ export default function Index() {
             <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
               {/* Responsive typography with mobile 3-line layout */}
               <div className="hero-text-line-1 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                Most founders we meet have great ideas.
+                Most founders we meet have <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3">great ideas</span>.
               </div>
               <div className="hero-text-line-2 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                they just can't find the time, team, or technical partner
+                They just can't find the time, team, or technical partner
               </div>
               <div className="hero-text-line-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl leading-relaxed sm:leading-tight">
                 <span className="font-luxurious text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl not-italic pr-3 hero-tech-product">
