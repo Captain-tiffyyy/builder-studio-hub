@@ -243,10 +243,6 @@ export default function Index() {
             </div>
           </div>
 
-          <div className="container-custom text-center mt-8">
-            <a href="/projects" className="italic underline text-brown">see projects</a>
-          </div>
-
         </div>
       </section>
 
@@ -322,6 +318,10 @@ export default function Index() {
           </div>
         </div>
       </section>
+
+      <div className="container-custom text-center my-8">
+        <a href="/projects" className="italic underline text-brown">see projects</a>
+      </div>
 
       {/* Vision Statement */}
       <section className="section-padding bg-cream">
