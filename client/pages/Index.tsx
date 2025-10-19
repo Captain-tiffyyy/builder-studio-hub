@@ -525,15 +525,10 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know who you are, it's time to plan how we'll
-                  bring your product to life. We'll conduct a full market
-                  research and technical audit to bring your idea to life with
-                  the best tools and packaging.
+                  Now that we know your goals, it’s time to map out how we’ll bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  We'll build a clear project roadmap: what's happening, when,
-                  and why — with milestones that keep everything on track and
-                  moving forward.
+                  You’ll see every milestone before we move, so the path forward always feels certain.
                 </p>
               </div>
             </div>
