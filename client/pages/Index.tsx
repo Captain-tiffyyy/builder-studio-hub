@@ -414,9 +414,9 @@ export default function Index() {
       </section>
 
       {/* Our Services */}
-      <section id="services" className="section-padding bg-cream">
+      <section id="services" className="section-padding py-24 bg-cream">
         <div className="container-custom text-center">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-6xl mx-auto px-4">
             <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
               /We're your product partner
             </h2>
@@ -424,25 +424,25 @@ export default function Index() {
 
             <div className="text-gray-blue mb-12">
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-                <div className="p-6 bg-white/5 border border-brown/10 rounded-lg">
-                  <h4 className="font-serif text-xl text-brown mb-2">1. Plan</h4>
-                  <p className="text-gray-blue">You start with a clear plan of what to build, who it’s for, and how it should work.</p>
+              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 items-stretch">
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">1. Plan</h4>
+                  <p className="text-gray-blue text-lg md:text-xl">You start with a clear plan of what to build, who it’s for, and how it should work.</p>
                 </div>
 
-                <div className="p-6 bg-white/5 border border-brown/10 rounded-lg">
-                  <h4 className="font-serif text-xl text-brown mb-2">2. Design</h4>
-                  <p className="text-gray-blue">Your product looks beautiful and makes sense to real users.</p>
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">2. Design</h4>
+                  <p className="text-gray-blue text-lg md:text-xl">Your product looks beautiful and makes sense to real users.</p>
                 </div>
 
-                <div className="p-6 bg-white/5 border border-brown/10 rounded-lg">
-                  <h4 className="font-serif text-xl text-brown mb-2">3. Build</h4>
-                  <p className="text-gray-blue">Your idea becomes real and people can actually use it.</p>
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">3. Build</h4>
+                  <p className="text-gray-blue text-lg md:text-xl">Your idea becomes real and people can actually use it.</p>
                 </div>
 
-                <div className="p-6 bg-white/5 border border-brown/10 rounded-lg">
-                  <h4 className="font-serif text-xl text-brown mb-2">4. Launch</h4>
-                  <p className="text-gray-blue">Your product is shared with users and keeps growing.</p>
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">4. Launch</h4>
+                  <p className="text-gray-blue text-lg md:text-xl">Your product is shared with users and keeps growing.</p>
                 </div>
               </div>
             </div>
