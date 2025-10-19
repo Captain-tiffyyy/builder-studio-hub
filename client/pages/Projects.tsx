@@ -77,7 +77,7 @@ export default function Projects() {
               Our Projects
             </h1>
             <p className="text-gray-blue text-2xl lg:text-3xl leading-relaxed tracking-tight mb-8">
-              We create websites of all complexity levels and consider each task comprehensively: from marketing and management to creating an intuitive user experience and using modern design trends.
+              Every founder starts with an idea. We help turn bold ideas into launch-ready products — fast. From prototype to polished MVP, we go from concept to launch in 30 days.
             </p>
           </div>
         </div>
