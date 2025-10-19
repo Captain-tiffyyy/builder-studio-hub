@@ -341,9 +341,9 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <style>{`@media (max-width: 640px) { .hero-cta-section { gap: .75ch !important; } .hero-cta-section .cta-text, .hero-cta-section .cta-text-ap { letter-spacing: .06em !important; } .hero-cta-section .pill { margin-inline: .75ch !important; padding-left: .43rem !important; padding-right: .43rem !important; } }`}</style>
+            <style>{`@media (max-width: 640px) { .hero-cta-section { gap: .75ch !important; align-items: center !important; justify-content: center !important; flex-wrap: nowrap !important; } .hero-cta-section .cta-text, .hero-cta-section .cta-text-ap, .hero-cta-section .pill span { letter-spacing: .06em !important; } .hero-cta-section .pill { margin-inline: .75ch !important; padding-left: .35rem !important; padding-right: .35rem !important; } }`}</style>
 
-            <div className="hero-cta-section flex items-baseline justify-center gap-0 mb-6 sm:mb-12 px-4 sm:px-6 whitespace-nowrap">
+            <div className="hero-cta-section flex items-center justify-center gap-0 mb-6 sm:mb-12 px-4 sm:px-6 whitespace-nowrap">
               {/* Mobile text */}
               <span className="cta-text block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-normal uppercase mr-2">
                 LET'S TURN YOUR IDEAS INTO
