@@ -128,7 +128,9 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-8">
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-blue italic leading-tight mb-4">/We Make Launching Feel Easy</h2>
+            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-blue italic leading-tight mb-4">
+              /We Make Launching Feel Easy
+            </h2>
           </div>
           <div className="stats-container">
             {/* Startups Launched */}
@@ -242,7 +244,6 @@ export default function Index() {
               </div>
             </div>
           </div>
-
         </div>
       </section>
 
@@ -360,7 +361,10 @@ export default function Index() {
                 </span>
               </div>
 
-              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2 sm:ml-3" style={{marginLeft: '3px'}}>
+              <span
+                className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2 sm:ml-3"
+                style={{ marginLeft: "3px" }}
+              >
                 APPS
               </span>
             </div>
@@ -397,10 +401,13 @@ export default function Index() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 justify-start items-center">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  You know your market better than anyone, but turning it into a revenue-generating tech product? That's where most get stuck.
+                  You know your market better than anyone, but turning it into a
+                  revenue-generating tech product? That's where most get stuck.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Well, we're here to smooth out those bumps and bridge that gap with strategy, design, and development that move your idea forward fast.
+                  Well, we're here to smooth out those bumps and bridge that gap
+                  with strategy, design, and development that move your idea
+                  forward fast.
                 </p>
               </div>
             </div>
@@ -424,29 +431,47 @@ export default function Index() {
             <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
               /We're your product partner
             </h2>
-            <p className="text-gray-blue text-xl lg:text-2xl mb-12">Our process is simple: build products your users love.</p>
+            <p className="text-gray-blue text-xl lg:text-2xl mb-12">
+              Our process is simple: build products your users love.
+            </p>
 
             <div className="text-gray-blue mb-12">
-
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 items-stretch">
                 <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-center">
-                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">1. Plan</h4>
-                  <p className="text-gray-blue text-lg md:text-xl">You start with a clear plan of what to build, who it’s for, and how it should work.</p>
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">
+                    1. Plan
+                  </h4>
+                  <p className="text-gray-blue text-lg md:text-xl">
+                    You start with a clear plan of what to build, who it’s for,
+                    and how it should work.
+                  </p>
                 </div>
 
                 <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-center">
-                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">2. Design</h4>
-                  <p className="text-gray-blue text-lg md:text-xl">Your product looks beautiful and makes sense to real users.</p>
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">
+                    2. Design
+                  </h4>
+                  <p className="text-gray-blue text-lg md:text-xl">
+                    Your product looks beautiful and makes sense to real users.
+                  </p>
                 </div>
 
                 <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-center">
-                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">3. Build</h4>
-                  <p className="text-gray-blue text-lg md:text-xl">Your idea becomes real and people can actually use it.</p>
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">
+                    3. Build
+                  </h4>
+                  <p className="text-gray-blue text-lg md:text-xl">
+                    Your idea becomes real and people can actually use it.
+                  </p>
                 </div>
 
                 <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-center">
-                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">4. Launch</h4>
-                  <p className="text-gray-blue text-lg md:text-xl">Your product is shared with users and keeps growing.</p>
+                  <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">
+                    4. Launch
+                  </h4>
+                  <p className="text-gray-blue text-lg md:text-xl">
+                    Your product is shared with users and keeps growing.
+                  </p>
                 </div>
               </div>
             </div>
@@ -480,12 +505,17 @@ export default function Index() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  We think beyond deliverables. Our team dives into your market, users, and goals, so what we build together<br />
-                  doesn’t just work,<br />
+                  We think beyond deliverables. Our team dives into your market,
+                  users, and goals, so what we build together
+                  <br />
+                  doesn’t just work,
+                  <br />
                   it wins.
                 </p>
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  You bring the vision - we bring the design, tech, and momentum to make it real. Because great things don’t come from briefs, they come from collaboration.
+                  You bring the vision - we bring the design, tech, and momentum
+                  to make it real. Because great things don’t come from briefs,
+                  they come from collaboration.
                 </p>
               </div>
             </div>
@@ -505,7 +535,10 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  We believe great products carry the personality of their founders. That’s why we begin with your story — what you stand for, why you care, and what you want the world to feel when they use what you’ve built.
+                  We believe great products carry the personality of their
+                  founders. That’s why we begin with your story — what you stand
+                  for, why you care, and what you want the world to feel when
+                  they use what you’ve built.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   This isn't just about understanding your project idea; it's
@@ -538,10 +571,13 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we��ll bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
+                  Now that we know your goals, it’s time to map out how we��ll
+                  bring your product to life. We combine strategy, research, and
+                  technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  You’ll see every milestone before we move, so the path forward always feels certain.
+                  You’ll see every milestone before we move, so the path forward
+                  always feels certain.
                 </p>
               </div>
             </div>
@@ -556,10 +592,14 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now it's time to roll up our sleeves and build. We turn everything we’ve learned — your story, values, and vision into a real, working product.
+                  Now it's time to roll up our sleeves and build. We turn
+                  everything we’ve learned — your story, values, and vision into
+                  a real, working product.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Our process is agile and transparent, with continuous feedback to ensure your product grows in the right direction from day one.
+                  Our process is agile and transparent, with continuous feedback
+                  to ensure your product grows in the right direction from day
+                  one.
                 </p>
               </div>
             </div>
@@ -578,7 +618,7 @@ export default function Index() {
       <section className="section-padding">
         <div className="container-custom text-center">
           <h2 className="font-serif text-4xl lg:text-6xl text-red-brand mb-8">
-            We'll launch your {" "}
+            We'll launch your{" "}
             <span className="font-luxurious text-6xl lg:text-8xl">Startup</span>{" "}
             in 1 month
           </h2>
@@ -592,12 +632,12 @@ export default function Index() {
                 Here's what you'll get working with us:
               </p>
               <p>
-                1. A super skilled team that's {" "}
+                1. A super skilled team that's{" "}
                 <span className="font-bold text-gray-blue">obsessed</span> with
                 your success.
               </p>
               <p>
-                2. Up to 4 rounds of {" "}
+                2. Up to 4 rounds of{" "}
                 <span className="font-bold text-gray-blue">thoughtful</span>{" "}
                 revisions.
               </p>
