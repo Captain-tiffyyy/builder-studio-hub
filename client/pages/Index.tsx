@@ -341,7 +341,7 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <div className="hero-cta-section flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-12 px-4">
+            <div className="hero-cta-section flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-2 mb-6 sm:mb-12 px-4">
               <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
                 WE HELP TURN IDEAS INTO APPS PEOPLE
               </span>
