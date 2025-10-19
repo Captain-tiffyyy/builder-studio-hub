@@ -360,13 +360,13 @@ export default function Index() {
                 </span>
               </div>
 
-              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase">
+              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2 sm:ml-3" style={{marginLeft: '3px'}}>
                 APPS
               </span>
             </div>
 
             {/* CTA Button with proper mobile spacing */}
-            <div className="mt-6 mb-6 sm:mt-8 sm:mb-8">
+            <div className="mt-8 mb-8 sm:mt-8 sm:mb-8">
               <a
                 href="https://calendly.com/juliacores/welcome-call-studio-cores"
                 target="_blank"
