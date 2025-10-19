@@ -469,7 +469,9 @@ export default function Index() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  We think beyond deliverables. Our team dives into your market, users, and goals, so what we build together doesn’t just work, it wins.
+                  We think beyond deliverables. Our team dives into your market, users, and goals, so what we build together<br />
+                  doesn’t just work,<br />
+                  it wins.
                 </p>
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
                   You bring the vision - we bring the design, tech, and momentum to make it real. Because great things don’t come from briefs, they come from collaboration.
