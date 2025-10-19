@@ -341,18 +341,18 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <div className="hero-cta-section flex items-center justify-center gap-1 mb-6 sm:mb-12 px-4 whitespace-nowrap">
-              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase">
+            <div className="hero-cta-section flex items-baseline justify-center gap-0 mb-6 sm:mb-12 px-4 whitespace-nowrap">
+              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
                 WE HELP TURN YOUR IDEAS INTO
               </span>
 
-              <div className="border border-gray-medium rounded-full px-3 sm:px-4 py-1 mx-2 inline-flex items-center justify-center">
+              <div className="border border-gray-medium rounded-full px-2 sm:px-3 py-1 inline-flex items-center justify-center">
                 <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase">
                   GREAT
                 </span>
               </div>
 
-              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2">
+              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-3">
                 APPS
               </span>
             </div>
