@@ -546,7 +546,7 @@ export default function Index() {
                   Now it's time to roll up our sleeves and build. We turn everything we’ve learned — your story, values, and vision into a real, working product.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  You’ll stay part of the journey through regular check-ins and fast iterations, so every step feels collaborative. Our process is agile and transparent, with continuous feedback to ensure your product grows in the right direction from day one.
+                  Our process is agile and transparent, with continuous feedback to ensure your product grows in the right direction from day one.
                 </p>
               </div>
             </div>
