@@ -469,12 +469,10 @@ export default function Index() {
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  Think of us not just as your developers, but as the co-creator
-                  of your online universe.
+                  We think beyond deliverables. Our team dives into your market, users, and goals, so what we build together doesn’t just work, it wins.
                 </p>
                 <p className="text-brown text-xl lg:text-2xl leading-relaxed">
-                  We help you build a digital product where your knowledge can
-                  truly shine. Let's make some magic together, shall we?
+                  You bring the vision - we bring the design, tech, and momentum to make it real. Because great things don’t come from briefs, they come from collaboration.
                 </p>
               </div>
             </div>
