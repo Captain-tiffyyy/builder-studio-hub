@@ -319,10 +319,6 @@ export default function Index() {
         </div>
       </section>
 
-      <div className="container-custom text-center my-8">
-        <a href="/projects" className="italic underline text-brown">see projects</a>
-      </div>
-
       {/* Vision Statement */}
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
