@@ -543,14 +543,10 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now it's time to roll up our sleeves and build. We'll take
-                  everything we've learned about you — your story, your values,
-                  the blueprint we've made — and start building your product.
+                  Now it's time to roll up our sleeves and build. We turn everything we’ve learned — your story, values, and vision into a real, working product.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Through agile development, weekly check-ins and user-testing,
-                  we'll make sure every step of the way feels easy and
-                  intentional.
+                  You’ll stay part of the journey through regular check-ins and fast iterations, so every step feels collaborative. Our process is agile and transparent, with continuous feedback to ensure your product grows in the right direction from day one.
                 </p>
               </div>
             </div>
