@@ -16,7 +16,7 @@ export default function Index() {
               <div className="mb-8 lg:mb-0">
                 <div className="font-serif leading-tight text-center lg:text-left px-2 sm:px-0 lg:pl-[50px] w-full overflow-hidden">
                   {/* Line 1: Turn Your Expertise */}
-                  <div className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-7xl italic text-brown mb-2 break-words hero-turn-expertise">
+                  <div className="text-[30px] leading-[36px] sm:text-3xl sm:leading-[32px] md:text-4xl lg:text-6xl xl:text-7xl italic text-brown mb-2 break-words hero-turn-expertise">
                     Turn Your Expertise
                   </div>
                   {/* Line 2: into a + Startup */}
