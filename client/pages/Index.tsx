@@ -384,12 +384,10 @@ export default function Index() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 justify-start items-center">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Your expertise is valuable, but turning it into a
-                  revenue-generating tech product? That's where most get stuck.
+                  You know your market better than anyone, but turning it into a revenue-generating tech product? That's where most get stuck.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Well, we're here to smooth out those bumps and guide you
-                  towards a brand and product that truly reflects you.
+                  Well, we're here to smooth out those bumps and bridge that gap with strategy, design, and development that move your idea forward fast.
                 </p>
               </div>
             </div>
