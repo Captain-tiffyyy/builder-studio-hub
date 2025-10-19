@@ -342,16 +342,16 @@ export default function Index() {
 
             {/* Mobile-optimized CTA section */}
             <div className="hero-cta-section flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 mb-6 sm:mb-12 px-4">
-              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
-                so....
+              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider">
+                We help turn ideas into apps people
               </span>
               <div className="border border-gray-medium rounded-full px-4 sm:px-6 py-2">
-                <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
-                  what
+                <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider">
+                  love
                 </span>
               </div>
-              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
-                are you waiting for?
+              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider">
+                .
               </span>
             </div>
 
