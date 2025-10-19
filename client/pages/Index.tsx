@@ -341,26 +341,26 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <style>{`@media (max-width: 640px) { .hero-cta-section { gap: .75ch !important; align-items: center !important; justify-content: center !important; flex-wrap: nowrap !important; } .hero-cta-section .cta-text, .hero-cta-section .cta-text-ap, .hero-cta-section .pill span { letter-spacing: .06em !important; } .hero-cta-section .pill { margin-inline: .75ch !important; padding-left: .35rem !important; padding-right: .35rem !important; } }`}</style>
+            <style>{`@media (max-width: 640px) { .hero-cta-section { display:flex; align-items:center; font-size:12px; font-weight:400; gap:5.50645px; justify-content:center; line-height:18px; margin-bottom:24px; white-space:nowrap; padding:0 16px; } .hero-cta-section .cta-text { display:block; color: rgb(94,101,123); font-weight:300; letter-spacing:0.72px; margin-right:8px; text-transform:uppercase; white-space:nowrap; } .hero-cta-section .desktop-text { display:none; } .hero-cta-section .pill { display:flex; align-items:center; border-color: rgb(94,101,121); border-radius:9999px; border-width:1px; font-weight:400; justify-content:center; margin:0 6px; padding:4px 5.6px; } .hero-cta-section .cta-text-ap { display:block; color: rgb(94,101,123); font-weight:300; letter-spacing:0.72px; margin-left:8px; text-transform:uppercase; white-space:nowrap; } .hero-cta-section .cta-text-mobile-mr { margin-right:-1px; } .hero-cta-section .pill-mobile-mr { margin-right:-3px; } }`}</style>
 
             <div className="hero-cta-section flex items-center justify-center gap-0 mb-6 sm:mb-12 px-4 sm:px-6 whitespace-nowrap">
               {/* Mobile text */}
-              <span className="cta-text block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-normal uppercase mr-2">
+              <span className="cta-text cta-text-mobile-mr block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-normal uppercase">
                 LET'S TURN YOUR IDEAS INTO
               </span>
 
               {/* Desktop text */}
-              <span className="hidden sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
+              <span className="desktop-text hidden sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
                 WE HELP TURN YOUR IDEAS INTO
               </span>
 
-              <div className="pill border border-gray-medium rounded-full px-1 sm:px-3 py-1 inline-flex items-center justify-center">
+              <div className="pill pill-mobile-mr border border-gray-medium rounded-full px-1 sm:px-3 py-1 inline-flex items-center justify-center">
                 <span className="text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-bold uppercase">
                   GREAT
                 </span>
               </div>
 
-              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2">
+              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase">
                 APPS
               </span>
             </div>
@@ -538,7 +538,7 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we’ll bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
+                  Now that we know your goals, it’s time to map out how we��ll bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   You’ll see every milestone before we move, so the path forward always feels certain.
