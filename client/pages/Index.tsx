@@ -424,7 +424,7 @@ export default function Index() {
 
             <div className="text-gray-blue mb-12">
 
-              <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 items-stretch">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 items-stretch">
                 <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-center">
                   <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">1. Plan</h4>
                   <p className="text-gray-blue text-lg md:text-xl">You start with a clear plan of what to build, who it’s for, and how it should work.</p>
