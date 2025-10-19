@@ -417,9 +417,11 @@ export default function Index() {
       <section id="services" className="section-padding bg-cream">
         <div className="container-custom text-center">
           <div className="max-w-3xl mx-auto">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-12">
-              /Our Services
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
+              /We're your product partner
             </h2>
+            <p className="text-gray-blue text-xl lg:text-2xl mb-6">We research, design, and build tech products your users love.</p>
+
             <div className="text-gray-blue text-2xl lg:text-3xl space-y-4 mb-16">
               <p>Market Research</p>
               <p>Product Design</p>
