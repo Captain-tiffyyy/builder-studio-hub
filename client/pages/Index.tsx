@@ -420,7 +420,7 @@ export default function Index() {
             <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
               /We're your product partner
             </h2>
-            <p className="text-gray-blue text-xl lg:text-2xl mb-6">Our process is simple: build products your users love.</p>
+            <p className="text-gray-blue text-xl lg:text-2xl mb-12">Our process is simple: build products your users love.</p>
 
             <div className="text-gray-blue mb-12">
 
