@@ -341,15 +341,20 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
-            <div className="hero-cta-section flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-2 mb-6 sm:mb-12 px-4">
-              <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase">
-                WE HELP TURN YOUR IDEAS INTO GREAT APPS
+            <div className="hero-cta-section flex items-center justify-center gap-1 mb-6 sm:mb-12 px-4 whitespace-nowrap">
+              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase">
+                WE HELP TURN YOUR IDEAS INTO
               </span>
-              <div className="border border-gray-medium rounded-full px-4 sm:px-6 py-2">
-                <span className="text-gray-blue text-base sm:text-lg lg:text-xl font-light tracking-wider uppercase font-bold">
-                  LOVE
+
+              <div className="border border-gray-medium rounded-full px-3 sm:px-4 py-1 mx-2 inline-flex items-center justify-center">
+                <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-bold uppercase">
+                  GREAT
                 </span>
               </div>
+
+              <span className="text-gray-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2">
+                APPS
+              </span>
             </div>
 
             {/* CTA Button with proper mobile spacing */}
