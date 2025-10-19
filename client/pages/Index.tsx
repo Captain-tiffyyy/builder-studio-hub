@@ -342,7 +342,13 @@ export default function Index() {
 
             {/* Mobile-optimized CTA section */}
             <div className="hero-cta-section flex items-baseline justify-center gap-0 mb-6 sm:mb-12 px-4 sm:px-6 whitespace-nowrap">
-              <span className="text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
+              {/* Mobile text */}
+              <span className="block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
+                LET'S TURN YOUR IDEAS INTO
+              </span>
+
+              {/* Desktop text */}
+              <span className="hidden sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase mr-1">
                 WE HELP TURN YOUR IDEAS INTO
               </span>
 
