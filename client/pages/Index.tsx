@@ -420,10 +420,9 @@ export default function Index() {
             <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
               /We're your product partner
             </h2>
-            <p className="text-gray-blue text-xl lg:text-2xl mb-6">We research, design, and build tech products your users love.</p>
+            <p className="text-gray-blue text-xl lg:text-2xl mb-6">Our process is simple: build products your users love.</p>
 
             <div className="text-gray-blue mb-12">
-              <h3 className="font-serif text-2xl lg:text-3xl mb-6">Our Process:</h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
                 <div className="p-6 bg-white/5 border border-brown/10 rounded-lg">
