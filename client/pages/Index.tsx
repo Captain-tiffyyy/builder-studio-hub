@@ -492,9 +492,7 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  We begin with your story and expertise. Who are you? What's
-                  your mission? We'll talk about your goals, values, passions –
-                  all the things that make you, well, you.
+                  We believe great products carry the personality of their founders. That’s why we begin with your story — what you stand for, why you care, and what you want the world to feel when they use what you’ve built.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   This isn't just about understanding your project idea; it's
