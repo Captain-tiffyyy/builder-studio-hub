@@ -425,22 +425,22 @@ export default function Index() {
             <div className="text-gray-blue mb-12">
 
               <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20 items-stretch">
-                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-start">
                   <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">1. Plan</h4>
                   <p className="text-gray-blue text-lg md:text-xl">You start with a clear plan of what to build, who it’s for, and how it should work.</p>
                 </div>
 
-                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-start">
                   <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">2. Design</h4>
                   <p className="text-gray-blue text-lg md:text-xl">Your product looks beautiful and makes sense to real users.</p>
                 </div>
 
-                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-start">
                   <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">3. Build</h4>
                   <p className="text-gray-blue text-lg md:text-xl">Your idea becomes real and people can actually use it.</p>
                 </div>
 
-                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-center">
+                <div className="p-10 md:p-12 bg-white/5 border border-brown/10 rounded-lg min-h-[260px] flex flex-col justify-start items-start">
                   <h4 className="font-serif text-2xl md:text-2xl text-brown mb-4">4. Launch</h4>
                   <p className="text-gray-blue text-lg md:text-xl">Your product is shared with users and keeps growing.</p>
                 </div>
