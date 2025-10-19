@@ -341,9 +341,11 @@ export default function Index() {
             </h2>
 
             {/* Mobile-optimized CTA section */}
+            <style>{`@media (max-width: 640px) { .hero-cta-section { gap: .75ch !important; } .hero-cta-section .cta-text, .hero-cta-section .cta-text-ap { letter-spacing: .06em !important; } .hero-cta-section .pill { margin-inline: .75ch !important; padding-left: .43rem !important; padding-right: .43rem !important; } }`}</style>
+
             <div className="hero-cta-section flex items-baseline justify-center gap-0 mb-6 sm:mb-12 px-4 sm:px-6 whitespace-nowrap">
               {/* Mobile text */}
-              <span style={{letterSpacing: '-0.03em'}} className="block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-normal uppercase mr-2">
+              <span className="cta-text block sm:hidden text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-normal uppercase mr-2">
                 LET'S TURN YOUR IDEAS INTO
               </span>
 
@@ -352,13 +354,13 @@ export default function Index() {
                 WE HELP TURN YOUR IDEAS INTO
               </span>
 
-              <div className="border border-gray-medium rounded-full px-1 sm:px-3 py-1 inline-flex items-center justify-center">
+              <div className="pill border border-gray-medium rounded-full px-1 sm:px-3 py-1 inline-flex items-center justify-center">
                 <span className="text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-bold uppercase">
                   GREAT
                 </span>
               </div>
 
-              <span className="block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2">
+              <span className="cta-text-ap block sm:inline text-gray-blue text-[11px] sm:text-[12px] md:text-base lg:text-lg xl:text-xl font-light tracking-wider uppercase ml-2">
                 APPS
               </span>
             </div>
