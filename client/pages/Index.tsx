@@ -280,7 +280,7 @@ export default function Index() {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="section-padding">
+      <section id="team" className="section-padding" style={{ marginTop: '30px' }}>
         <div className="container-custom flex flex-col">
           <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
             /Meet The Team
