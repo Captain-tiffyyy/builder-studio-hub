@@ -465,8 +465,7 @@ export default function Index() {
                     1. Plan
                   </h4>
                   <p className="text-gray-blue text-lg md:text-xl">
-                    You start with a clear plan of what to build, who it���s
-                    for, and how it should work.
+                    You start with a clear plan of what to build, who it is for, and how it should work.
                   </p>
                 </div>
 
