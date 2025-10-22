@@ -169,8 +169,11 @@
 
   @media (max-width: 640px) {
     .launching-heading {
-      font-size: clamp(20px, 6.5vw, 30px);
-      white-space: nowrap;
+      font-size: clamp(18px, 6.5vw, 30px);
+      white-space: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
       overflow: hidden;
       text-overflow: ellipsis;
     }
