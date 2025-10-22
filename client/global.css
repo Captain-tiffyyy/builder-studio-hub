@@ -160,6 +160,22 @@
     @apply font-serif text-subheading leading-tight tracking-tighter;
   }
 
+  /* Launching heading - ensure single line on mobile */
+  .launching-heading {
+    color: rgb(94, 101, 123);
+    font: 400 48px/48px "Instrument Serif", serif;
+    margin-bottom: 8px;
+  }
+
+  @media (max-width: 640px) {
+    .launching-heading {
+      font-size: clamp(20px, 6.5vw, 30px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
   .text-brand {
     @apply text-red-brand;
   }
