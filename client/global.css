@@ -291,7 +291,7 @@
     font-size: clamp(28px, 3.5vw, 32px) !important;
     font-weight: 400 !important;
     color: #70707B;
-    margin-top: 16px;
+    margin-top: 8px;
     z-index: 1;
   }
 
