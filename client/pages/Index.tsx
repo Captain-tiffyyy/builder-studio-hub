@@ -133,7 +133,7 @@ export default function Index() {
               /We Make Launching Feel Easy
             </h2>
           </div>
-          <div className="stats-container" style={{ marginTop: '10px' }}>
+          <div className="stats-container" style={{ marginTop: "10px" }}>
             {/* Startups Launched */}
             <div
               className="flex flex-col items-center max-w-full"
@@ -243,13 +243,13 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue ml-2"
                   style={{
-                        display: "inline",
-                        color: "rgb(94, 101, 123)",
-                        "@media (max-width: 640px)": {
-                          fontSize: "50px",
-                        },
-                        font: '400 60px/54px "Luxurious Script", cursive ',
-                      }}
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
+                    "@media (max-width: 640px)": {
+                      fontSize: "50px",
+                    },
+                    font: '400 60px/54px "Luxurious Script", cursive ',
+                  }}
                 >
                   million
                 </span>
@@ -280,7 +280,11 @@ export default function Index() {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="section-padding" style={{ marginTop: '30px' }}>
+      <section
+        id="team"
+        className="section-padding"
+        style={{ marginTop: "30px" }}
+      >
         <div className="container-custom flex flex-col">
           <h2 className="font-serif text-4xl lg:text-6xl text-brown text-right mb-16 self-center">
             /Meet The Team
@@ -363,7 +367,8 @@ export default function Index() {
               </div>
 
               <div className="hero-text-line-2 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                But they procrastinate on the launch <span className="mobile-break">or lack technical skills,</span>
+                But they procrastinate on the launch{" "}
+                <span className="mobile-break">or lack technical skills,</span>
               </div>
 
               <div className="hero-text-line-3 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight">
@@ -601,7 +606,8 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we will bring your product to life. We combine strategy, research, and
+                  Now that we know your goals, it’s time to map out how we will
+                  bring your product to life. We combine strategy, research, and
                   technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
