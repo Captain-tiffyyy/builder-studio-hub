@@ -127,8 +127,8 @@ export default function Index() {
         }}
       >
         <div className="w-full overflow-visible">
-          <div className="container-custom text-center mb-8">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', marginBottom: '8px', font: '400 48px/48px "Instrument Serif", serif' }}>
+          <div className="container-custom text-center mb-0">
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', font: '400 48px/48px "Instrument Serif", serif' }}>
               /We Make Launching Feel Easy
             </h2>
           </div>
