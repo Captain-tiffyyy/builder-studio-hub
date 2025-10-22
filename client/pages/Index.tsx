@@ -128,7 +128,7 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-8">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-6">
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2">
               /We Make Launching Feel Easy
             </h2>
           </div>
