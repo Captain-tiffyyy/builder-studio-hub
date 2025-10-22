@@ -396,12 +396,12 @@ export default function Index() {
 
             {/* CTA Button with proper mobile spacing */}
             <div className="mt-8 mb-8 sm:mt-8 sm:mb-8">
-              <a
-                href="/projects"
+              <Link
+                to="/projects"
                 className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 rounded-full border border-red-brand bg-button-base text-red-brand font-sans text-sm font-light tracking-widest uppercase transition-colors hover:bg-button-hover"
               >
                 CHECK OUT OUR PROJECTS
-              </a>
+              </Link>
             </div>
           </div>
         </div>
