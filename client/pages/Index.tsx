@@ -359,11 +359,12 @@ export default function Index() {
             <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
               {/* Responsive typography with mobile 3-line layout */}
               <div className="hero-text-line-1 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                Most founders we meet have great ideas
+                Most founders have great ideas,
               </div>
 
               <div className="hero-text-line-2 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                They just can't find the time or technical team
+                But they procrastinate on the launch or lack technical
+                skills,
               </div>
 
               <div className="hero-text-line-3 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight">
