@@ -210,20 +210,26 @@
     .stat-number {
       display: inline;
       color: rgb(94, 101, 123);
-      font: 400 120px/108px "Luxurious Script", cursive;
+      font:
+        400 120px/108px "Luxurious Script",
+        cursive;
       text-wrap: nowrap;
     }
 
     .stat-million {
       display: inline;
       color: rgb(94, 101, 123);
-      font: 400 60px/54px "Luxurious Script", cursive;
+      font:
+        400 60px/54px "Luxurious Script",
+        cursive;
     }
 
     .stat-plus {
       display: inline;
       color: rgb(94, 101, 123);
-      font: 400 40px/0px "Luxurious Script", cursive;
+      font:
+        400 40px/0px "Luxurious Script",
+        cursive;
       vertical-align: super;
       top: -20px;
     }
