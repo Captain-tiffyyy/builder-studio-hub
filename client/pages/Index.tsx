@@ -129,7 +129,7 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-0">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', font: '400 48px/48px "Instrument Serif", serif' }}>
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', fontFeatureSettings: 'normal', marginBottom: '8px', "@media (max-width: 640px)": { fontSize: '40px' }, font: '400 48px/48px "Instrument Serif", serif ' }}>
               /We Make Launching Feel Easy
             </h2>
           </div>
@@ -143,8 +143,13 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 180px)",
-                    lineHeight: "0.9",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
+                    textWrap: "nowrap",
+                    "@media (max-width: 640px)": {
+                      fontSize: "90px",
+                    },
+                    font: '400 120px/108px "Luxurious Script", cursive ',
                   }}
                 >
                   28
@@ -152,9 +157,13 @@ export default function Index() {
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 72px)",
-                    verticalAlign: "super",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
                     marginLeft: "10px",
+                    textWrap: "nowrap",
+                    top: "-20px",
+                    verticalAlign: "super",
+                    font: '400 40px/0px "Luxurious Script", cursive ',
                   }}
                 >
                   +
@@ -177,8 +186,13 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 180px)",
-                    lineHeight: "0.9",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
+                    textWrap: "nowrap",
+                    "@media (max-width: 640px)": {
+                      fontSize: "90px",
+                    },
+                    font: '400 120px/108px "Luxurious Script", cursive ',
                   }}
                 >
                   10
@@ -186,9 +200,13 @@ export default function Index() {
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 72px)",
-                    verticalAlign: "super",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
                     marginLeft: "10px",
+                    textWrap: "nowrap",
+                    top: "-20px",
+                    verticalAlign: "super",
+                    font: '400 40px/0px "Luxurious Script", cursive ',
                   }}
                 >
                   +
@@ -211,8 +229,13 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 180px)",
-                    lineHeight: "0.9",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
+                    textWrap: "nowrap",
+                    "@media (max-width: 640px)": {
+                      fontSize: "90px",
+                    },
+                    font: '400 120px/108px "Luxurious Script", cursive ',
                   }}
                 >
                   5
@@ -220,18 +243,26 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue ml-2"
                   style={{
-                    fontSize: "clamp(60px, 9vw, 90px)",
-                    lineHeight: "0.9",
-                  }}
+                        display: "inline",
+                        color: "rgb(94, 101, 123)",
+                        "@media (max-width: 640px)": {
+                          fontSize: "50px",
+                        },
+                        font: '400 60px/54px "Luxurious Script", cursive ',
+                      }}
                 >
                   million
                 </span>
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 72px)",
-                    verticalAlign: "super",
+                    display: "inline",
+                    color: "rgb(94, 101, 123)",
                     marginLeft: "10px",
+                    textWrap: "nowrap",
+                    top: "-20px",
+                    verticalAlign: "super",
+                    font: '400 40px/0px "Luxurious Script", cursive ',
                   }}
                 >
                   +
