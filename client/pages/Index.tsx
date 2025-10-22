@@ -129,7 +129,7 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-0">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', fontFeatureSettings: 'normal', marginBottom: '8px', "@media (max-width: 640px)": { fontSize: '36px' }, font: '400 48px/48px "Instrument Serif", serif ' }}>
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', fontFeatureSettings: 'normal', marginBottom: '8px', "@media (max-width: 640px)": { fontSize: '30px' }, font: '400 48px/48px "Instrument Serif", serif ' }}>
               /We Make Launching Feel Easy
             </h2>
           </div>
@@ -603,7 +603,7 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we��ll
+                  Now that we know your goals, it���s time to map out how we��ll
                   bring your product to life. We combine strategy, research, and
                   technical planning to design a roadmap built around you.
                 </p>
