@@ -177,6 +177,11 @@
       overflow: hidden;
       text-overflow: ellipsis;
     }
+
+    /* Mobile break utility for vision statement */
+    .mobile-break {
+      display: block;
+    }
   }
 
   .text-brand {
