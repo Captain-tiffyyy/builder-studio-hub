@@ -356,7 +356,7 @@ export default function Index() {
       <section className="section-padding bg-cream">
         <div className="container-custom text-center">
           <div className="max-w-5xl mx-auto px-4 sm:px-6">
-            <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16">
+            <h2 className="font-serif text-gray-blue italic mb-12 sm:mb-16 vision-copy">
               {/* Responsive typography with mobile 3-line layout */}
               <div className="hero-text-line-1 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
                 Most founders have great ideas,
