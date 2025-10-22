@@ -133,7 +133,7 @@ export default function Index() {
               /We Make Launching Feel Easy
             </h2>
           </div>
-          <div className="stats-container">
+          <div className="stats-container" style={{ marginTop: '10px' }}>
             {/* Startups Launched */}
             <div
               className="flex flex-col items-center max-w-full"
