@@ -144,7 +144,7 @@ export default function Index() {
                   28
                 </span>
                 <sup
-                  className="font-luxurious not-italic text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue stat-plus"
                   style={{
                     display: "inline",
                     color: "rgb(94, 101, 123)",
@@ -176,7 +176,7 @@ export default function Index() {
                   10
                 </span>
                 <sup
-                  className="font-luxurious not-italic text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue stat-plus"
                   style={{
                     display: "inline",
                     color: "rgb(94, 101, 123)",
@@ -211,7 +211,7 @@ export default function Index() {
                   million
                 </span>
                 <sup
-                  className="font-luxurious not-italic text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue stat-plus"
                   style={{
                     display: "inline",
                     color: "rgb(94, 101, 123)",
