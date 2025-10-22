@@ -140,7 +140,7 @@ export default function Index() {
             >
               <div className="mb-4 whitespace-nowrap">
                 <span
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(120px, 18vw, 300px)",
                     lineHeight: "0.9",
@@ -149,7 +149,7 @@ export default function Index() {
                   28
                 </span>
                 <sup
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(40px, 6vw, 100px)",
                     verticalAlign: "super",
@@ -174,7 +174,7 @@ export default function Index() {
             >
               <div className="mb-4 whitespace-nowrap">
                 <span
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(120px, 18vw, 300px)",
                     lineHeight: "0.9",
@@ -183,7 +183,7 @@ export default function Index() {
                   10
                 </span>
                 <sup
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(40px, 6vw, 100px)",
                     verticalAlign: "super",
@@ -208,7 +208,7 @@ export default function Index() {
             >
               <div className="mb-4 whitespace-nowrap">
                 <span
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(120px, 18vw, 300px)",
                     lineHeight: "0.9",
@@ -217,7 +217,7 @@ export default function Index() {
                   5
                 </span>
                 <span
-                  className="font-luxurious text-gray-blue ml-2"
+                  className="font-luxurious not-italic text-gray-blue ml-2"
                   style={{
                     fontSize: "clamp(60px, 9vw, 150px)",
                     lineHeight: "0.9",
@@ -226,7 +226,7 @@ export default function Index() {
                   million
                 </span>
                 <sup
-                  className="font-luxurious text-gray-blue"
+                  className="font-luxurious not-italic text-gray-blue"
                   style={{
                     fontSize: "clamp(40px, 6vw, 100px)",
                     verticalAlign: "super",
