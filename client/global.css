@@ -256,8 +256,13 @@
     z-index: 1;
   }
 
-  .stats-container .stat-number {
+  .stats-container .stat-number,
+  .stats-container .stat-million,
+  .stats-container .stat-plus {
     font-style: italic !important;
+  }
+
+  .stats-container .stat-number {
     color: rgb(94, 101, 123);
     font-size: clamp(72px, 9vw, 96px);
     line-height: 0.9;
