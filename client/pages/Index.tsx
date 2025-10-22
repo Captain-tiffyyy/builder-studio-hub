@@ -601,7 +601,7 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we��ll
+                  Now that we know your goals, it’s time to map out how we'll
                   bring your product to life. We combine strategy, research, and
                   technical planning to design a roadmap built around you.
                 </p>
