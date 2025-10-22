@@ -190,7 +190,7 @@
       margin-top: 24px;
       margin-bottom: 24px;
       text-align: center;
-      font-size: clamp(16px, 4.5vw, 18px);
+      font-size: 20px;
       line-height: 1.55;
       font-style: italic; /* preserve italics */
       color: rgb(94, 101, 123);
@@ -202,6 +202,12 @@
       display: block;
       width: 100%;
       margin-bottom: 12px;
+    }
+
+    /* Adjust CTA spacing on mobile to sit closer to the vision copy and button */
+    .hero-cta-section {
+      margin-top: 8px !important;
+      margin-bottom: 18px !important;
     }
   }
 
