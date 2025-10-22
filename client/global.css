@@ -198,7 +198,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: clamp(48px, 8vw, 145px);
+    gap: clamp(48px, 8vw, 126px);
     flex-direction: row;
   }
 
