@@ -133,14 +133,14 @@ export default function Index() {
               /We Make Launching Feel Easy
             </h2>
           </div>
-          <div className="stats-container" style={{ marginTop: "10px" }}>
+          <div className="stats-container" style={{ marginTop: "10px", gap: "90px", justifyContent: 'center', alignItems: 'center', textAlign: 'center', zIndex: 1 }}>
             {/* Startups Launched */}
             <div
               className="flex flex-col items-center max-w-full"
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-4 whitespace-nowrap">
-                <span className="font-luxurious not-italic text-gray-blue stat-number">
+                <span className="font-luxurious not-italic text-gray-blue stat-number" style={{ display: 'inline-block', color: 'rgb(94, 101, 123)', textWrap: 'nowrap', zIndex: 1, marginRight: '10px', font: 'italic 400 96px/86.4px "Luxurious Script", cursive' }}>
                   28
                 </span>
                 <sup
@@ -172,7 +172,7 @@ export default function Index() {
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-4 whitespace-nowrap">
-                <span className="font-luxurious not-italic text-gray-blue stat-number">
+                <span className="font-luxurious not-italic text-gray-blue stat-number" style={{ display: 'inline-block', color: 'rgb(94, 101, 123)', textWrap: 'nowrap', zIndex: 1, marginRight: '10px', font: 'italic 400 96px/86.4px "Luxurious Script", cursive' }}>
                   10
                 </span>
                 <sup
