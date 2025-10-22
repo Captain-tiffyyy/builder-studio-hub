@@ -128,7 +128,7 @@ export default function Index() {
       >
         <div className="w-full overflow-visible">
           <div className="container-custom text-center mb-8">
-            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2">
+            <h2 className="font-serif text-4xl lg:text-5xl text-gray-blue mb-2" style={{ color: 'rgb(94, 101, 123)', marginBottom: '8px', font: '400 48px/48px "Instrument Serif", serif' }}>
               /We Make Launching Feel Easy
             </h2>
           </div>
@@ -142,7 +142,7 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
+                    fontSize: "clamp(120px, 18vw, 180px)",
                     lineHeight: "0.9",
                   }}
                 >
@@ -151,7 +151,7 @@ export default function Index() {
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
+                    fontSize: "clamp(40px, 6vw, 72px)",
                     verticalAlign: "super",
                     marginLeft: "10px",
                   }}
@@ -161,7 +161,7 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+                style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Startups Launched
               </div>
@@ -176,7 +176,7 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
+                    fontSize: "clamp(120px, 18vw, 180px)",
                     lineHeight: "0.9",
                   }}
                 >
@@ -185,7 +185,7 @@ export default function Index() {
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
+                    fontSize: "clamp(40px, 6vw, 72px)",
                     verticalAlign: "super",
                     marginLeft: "10px",
                   }}
@@ -195,7 +195,7 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+                style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Countries
               </div>
@@ -210,7 +210,7 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(120px, 18vw, 300px)",
+                    fontSize: "clamp(120px, 18vw, 180px)",
                     lineHeight: "0.9",
                   }}
                 >
@@ -219,7 +219,7 @@ export default function Index() {
                 <span
                   className="font-luxurious not-italic text-gray-blue ml-2"
                   style={{
-                    fontSize: "clamp(60px, 9vw, 150px)",
+                    fontSize: "clamp(60px, 9vw, 90px)",
                     lineHeight: "0.9",
                   }}
                 >
@@ -228,7 +228,7 @@ export default function Index() {
                 <sup
                   className="font-luxurious not-italic text-gray-blue"
                   style={{
-                    fontSize: "clamp(40px, 6vw, 100px)",
+                    fontSize: "clamp(40px, 6vw, 72px)",
                     verticalAlign: "super",
                     marginLeft: "10px",
                   }}
@@ -238,7 +238,7 @@ export default function Index() {
               </div>
               <div
                 className="font-serif text-brown text-center"
-                style={{ fontSize: "clamp(40px, 2.2vw, 64px)" }}
+                style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Users
               </div>
