@@ -248,10 +248,10 @@
   /* Stats section responsive layout (consolidated) */
   .stats-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     text-align: center;
-    gap: clamp(48px, 12vw, 160px);
+    gap: clamp(24px, 6vw, 80px);
     flex-direction: row;
     z-index: 1;
   }
