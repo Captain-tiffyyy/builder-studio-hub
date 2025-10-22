@@ -163,7 +163,9 @@
   /* Launching heading - ensure single line on mobile */
   .launching-heading {
     color: rgb(94, 101, 123);
-    font: 400 56px/56px "Instrument Serif", serif;
+    font:
+      400 56px/56px "Instrument Serif",
+      serif;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -211,7 +213,6 @@
       margin-bottom: 18px !important;
     }
   }
-
 
   .text-brand {
     @apply text-red-brand;
@@ -290,7 +291,7 @@
   .stats-container .stat-label {
     font-size: clamp(28px, 3.5vw, 32px) !important;
     font-weight: 400 !important;
-    color: #70707B;
+    color: #70707b;
     margin-top: 8px;
     z-index: 1;
   }

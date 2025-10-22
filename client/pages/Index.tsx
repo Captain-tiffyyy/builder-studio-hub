@@ -133,14 +133,34 @@ export default function Index() {
               /We Make Launching Feel Easy
             </h2>
           </div>
-          <div className="stats-container" style={{ marginTop: "10px", gap: "90px", justifyContent: 'center', alignItems: 'center', textAlign: 'center', zIndex: 1 }}>
+          <div
+            className="stats-container"
+            style={{
+              marginTop: "10px",
+              gap: "90px",
+              justifyContent: "center",
+              alignItems: "center",
+              textAlign: "center",
+              zIndex: 1,
+            }}
+          >
             {/* Startups Launched */}
             <div
               className="flex flex-col items-center max-w-full"
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-1 whitespace-nowrap">
-                <span className="font-luxurious not-italic text-gray-blue stat-number" style={{ display: 'inline-block', color: 'rgb(94, 101, 123)', textWrap: 'nowrap', zIndex: 1, marginRight: '10px', font: 'italic 400 96px/86.4px "Luxurious Script", cursive' }}>
+                <span
+                  className="font-luxurious not-italic text-gray-blue stat-number"
+                  style={{
+                    display: "inline-block",
+                    color: "rgb(94, 101, 123)",
+                    textWrap: "nowrap",
+                    zIndex: 1,
+                    marginRight: "10px",
+                    font: 'italic 400 96px/86.4px "Luxurious Script", cursive',
+                  }}
+                >
                   28
                 </span>
                 <sup
@@ -172,7 +192,17 @@ export default function Index() {
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-1 whitespace-nowrap">
-                <span className="font-luxurious not-italic text-gray-blue stat-number" style={{ display: 'inline-block', color: 'rgb(94, 101, 123)', textWrap: 'nowrap', zIndex: 1, marginRight: '10px', font: 'italic 400 96px/86.4px "Luxurious Script", cursive' }}>
+                <span
+                  className="font-luxurious not-italic text-gray-blue stat-number"
+                  style={{
+                    display: "inline-block",
+                    color: "rgb(94, 101, 123)",
+                    textWrap: "nowrap",
+                    zIndex: 1,
+                    marginRight: "10px",
+                    font: 'italic 400 96px/86.4px "Luxurious Script", cursive',
+                  }}
+                >
                   10
                 </span>
                 <sup
@@ -434,8 +464,8 @@ export default function Index() {
                     1. Plan
                   </h4>
                   <p className="text-gray-blue text-lg md:text-xl">
-                    You start with a clear plan of what to build, who it���s for,
-                    and how it should work.
+                    You start with a clear plan of what to build, who it���s
+                    for, and how it should work.
                   </p>
                 </div>
 
@@ -563,7 +593,9 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we will bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
+                  Now that we know your goals, it’s time to map out how we will
+                  bring your product to life. We combine strategy, research, and
+                  technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   You’ll see every milestone before we move, so the path forward
