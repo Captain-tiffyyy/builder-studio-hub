@@ -159,7 +159,7 @@ export default function Index() {
                 </sup>
               </div>
               <div
-                className="font-serif text-brown text-center"
+                className="font-serif text-brown text-center stat-label"
                 style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Startups Launched
@@ -191,7 +191,7 @@ export default function Index() {
                 </sup>
               </div>
               <div
-                className="font-serif text-brown text-center"
+                className="font-serif text-brown text-center stat-label"
                 style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Countries
@@ -226,7 +226,7 @@ export default function Index() {
                 </sup>
               </div>
               <div
-                className="font-serif text-brown text-center"
+                className="font-serif text-brown text-center stat-label"
                 style={{ font: '400 40px/60px "Instrument Serif", serif' }}
               >
                 Users
