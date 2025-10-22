@@ -140,18 +140,7 @@ export default function Index() {
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious not-italic text-gray-blue"
-                  style={{
-                    display: "inline",
-                    color: "rgb(94, 101, 123)",
-                    textWrap: "nowrap",
-                    "@media (max-width: 640px)": {
-                      fontSize: "90px",
-                    },
-                    font: '400 120px/108px "Luxurious Script", cursive ',
-                  }}
-                >
+                <span className="font-luxurious not-italic text-gray-blue stat-number">
                   28
                 </span>
                 <sup
@@ -183,18 +172,7 @@ export default function Index() {
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious not-italic text-gray-blue"
-                  style={{
-                    display: "inline",
-                    color: "rgb(94, 101, 123)",
-                    textWrap: "nowrap",
-                    "@media (max-width: 640px)": {
-                      fontSize: "90px",
-                    },
-                    font: '400 120px/108px "Luxurious Script", cursive ',
-                  }}
-                >
+                <span className="font-luxurious not-italic text-gray-blue stat-number">
                   10
                 </span>
                 <sup
@@ -226,31 +204,10 @@ export default function Index() {
               style={{ maxWidth: "100%" }}
             >
               <div className="mb-4 whitespace-nowrap">
-                <span
-                  className="font-luxurious not-italic text-gray-blue"
-                  style={{
-                    display: "inline",
-                    color: "rgb(94, 101, 123)",
-                    textWrap: "nowrap",
-                    "@media (max-width: 640px)": {
-                      fontSize: "90px",
-                    },
-                    font: '400 120px/108px "Luxurious Script", cursive ',
-                  }}
-                >
+                <span className="font-luxurious not-italic text-gray-blue stat-number">
                   5
                 </span>
-                <span
-                  className="font-luxurious not-italic text-gray-blue ml-2"
-                  style={{
-                    display: "inline",
-                    color: "rgb(94, 101, 123)",
-                    "@media (max-width: 640px)": {
-                      fontSize: "50px",
-                    },
-                    font: '400 60px/54px "Luxurious Script", cursive ',
-                  }}
-                >
+                <span className="font-luxurious not-italic text-gray-blue ml-2 stat-million">
                   million
                 </span>
                 <sup
@@ -606,9 +563,7 @@ export default function Index() {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
-                  Now that we know your goals, it’s time to map out how we will
-                  bring your product to life. We combine strategy, research, and
-                  technical planning to design a roadmap built around you.
+                  Now that we know your goals, it’s time to map out how we will bring your product to life. We combine strategy, research, and technical planning to design a roadmap built around you.
                 </p>
                 <p className="text-brown text-lg lg:text-xl leading-relaxed">
                   You’ll see every milestone before we move, so the path forward
