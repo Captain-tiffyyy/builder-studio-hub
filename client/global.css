@@ -163,7 +163,9 @@
   /* Launching heading - ensure single line on mobile */
   .launching-heading {
     color: rgb(94, 101, 123);
-    font: 400 48px/48px "Instrument Serif", serif;
+    font:
+      400 48px/48px "Instrument Serif",
+      serif;
     margin-bottom: 20px;
   }
 
