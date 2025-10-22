@@ -124,6 +124,7 @@ export default function Index() {
         style={{
           paddingLeft: "clamp(16px, 4vw, 48px)",
           paddingRight: "clamp(16px, 4vw, 48px)",
+          marginTop: "80px",
         }}
       >
         <div className="w-full overflow-visible">
