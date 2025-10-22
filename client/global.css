@@ -259,7 +259,7 @@
   .stats-container .stat-number,
   .stats-container .stat-million,
   .stats-container .stat-plus {
-    font-style: italic !important;
+    font-style: normal !important;
   }
 
   .stats-container .stat-number {
