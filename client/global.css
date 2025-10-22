@@ -164,7 +164,7 @@
   .launching-heading {
     color: rgb(94, 101, 123);
     font: 400 48px/48px "Instrument Serif", serif;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
   }
 
   @media (max-width: 640px) {
