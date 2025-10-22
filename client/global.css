@@ -182,6 +182,27 @@
     .mobile-break {
       display: block;
     }
+
+    /* Mobile styles for vision copy */
+    .vision-copy {
+      padding-left: 10%;
+      padding-right: 10%;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      text-align: center;
+      font-size: clamp(16px, 4.5vw, 18px);
+      line-height: 1.55;
+      font-style: italic; /* preserve italics */
+      color: rgb(94, 101, 123);
+    }
+
+    .vision-copy .hero-text-line-1,
+    .vision-copy .hero-text-line-2,
+    .vision-copy .hero-text-line-3 {
+      display: block;
+      width: 100%;
+      margin-bottom: 12px;
+    }
   }
 
   .text-brand {
