@@ -363,8 +363,7 @@ export default function Index() {
               </div>
 
               <div className="hero-text-line-2 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight mb-3 sm:mb-4">
-                But they procrastinate on the launch or lack technical
-                skills,
+                But they procrastinate on the launch <span className="mobile-break">or lack technical skills,</span>
               </div>
 
               <div className="hero-text-line-3 text-base sm:text-lg md:text-xl lg:text-3xl xl:text-4xl 2xl:text-5xl leading-relaxed sm:leading-tight">
