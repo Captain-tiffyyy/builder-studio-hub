@@ -223,7 +223,7 @@
   }
 
   .stats-container .stat-number {
-    font-style: italic;
+    font-style: italic !important;
     color: rgb(94, 101, 123);
     font-size: clamp(72px, 9vw, 96px);
     line-height: 0.9;
